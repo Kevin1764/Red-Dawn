@@ -82,15 +82,15 @@ if = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = democratic
 	last_election = "1933.7.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 10
-	fascism = 2
-	communism = 88
+	democratic = 92
+	fascism = 4
+	communism = 4
 }
 
 add_ideas = {
@@ -131,7 +131,7 @@ create_country_leader = {
 }
 
 add_namespace = {
-	name = "unit_leader_sov"
+	name = "unit_leader_usa"
 	type = unit_leader
 }
 
