@@ -1,1 +1,5 @@
 SOV = "countries/Soviet Union.txt"
+USA = "countries/USA.txt"
+CAN = "countries/Canada.txt"
+RAJ = "countries/British Raj.txt"
+BRA = "countries/Brazil.txt"
