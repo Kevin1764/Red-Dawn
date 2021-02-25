@@ -21,6 +21,10 @@ BRA = {
 	color_ui = rgb { 99 189 82 }
 }
 PAK = {
-	color = { 21 38 66 }
-	color_ui { 21 38 66 }
+	color = rgb { 0 109  51 }
+	color_ui = rgb { 0 109  51 }
+}
+FRA = {
+	color = rgb { 57 113 228 }
+	color_ui = rgb { 74 147 255 }
 }
