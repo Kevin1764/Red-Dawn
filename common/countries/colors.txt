@@ -20,3 +20,7 @@ BRA = {
 	color = rgb { 76 145 63 }
 	color_ui = rgb { 99 189 82 }
 }
+PAK = {
+	color = { 21 38 66 }
+	color_ui { 21 38 66 }
+}

@@ -1,6 +1,6 @@
-﻿capital = 500
+capital = 433
 
-oob = "BRA_1936"
+oob = "PAK_1936"
 
 set_research_slots = 3
 set_stability = 0.5
@@ -75,7 +75,7 @@ if = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = neutrality
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -91,11 +91,11 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Eurico Gaspar Dutra"
+	name = "Sir Khawaja Nazimuddin"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_Soviet_Joseph_Stalin.dds"
 	expire = "1953.3.1"
-	ideology = socialism
+	ideology = despotism
 	traits = {
 		
 	}
