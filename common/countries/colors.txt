@@ -40,3 +40,11 @@ DDR = {
     color = rgb { 120 150 80 }
     color_ui = rgb { 150 180 120 }
 }
+AFG = {
+	color = rgb { 64 160 167 }
+	color_ui = rgb { 83 208 217 }
+}
+PER = {
+	color = rgb { 71 113 97 }
+	color_ui = rgb { 92 147 126 }
+}
