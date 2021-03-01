@@ -1,7 +1,11 @@
-﻿capital = 608
+﻿capital = 48
 
-oob = "PRC_1936"
-
+oob = "BUL_1936" 
+if = { 
+	limit = {
+		has_dlc = "Battle for the Bosporus"
+}
+	
 set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.8
@@ -76,7 +80,7 @@ set_convoys = 50
 
 set_politics = {
 	ruling_party = communism
-	last_election = "1950.1.1"
+	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -91,7 +95,7 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Mao Zedong"
+	name = "Joseph Stalin"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_Soviet_Joseph_Stalin.dds"
 	expire = "1953.3.1"

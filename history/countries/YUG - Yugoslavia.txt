@@ -1,6 +1,13 @@
-﻿capital = 608
+﻿capital = 107
 
-oob = "PRC_1936"
+oob = "YUG_1936"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "YUG_1936_naval_mtg"
+	else = {
+		set_naval_oob = "YUG_1936_naval_legacy"
+	}
+}
 
 set_research_slots = 3
 set_stability = 0.5
@@ -76,7 +83,7 @@ set_convoys = 50
 
 set_politics = {
 	ruling_party = communism
-	last_election = "1950.1.1"
+	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -91,7 +98,7 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Mao Zedong"
+	name = "Joseph Stalin"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_Soviet_Joseph_Stalin.dds"
 	expire = "1953.3.1"
