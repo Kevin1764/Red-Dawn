@@ -87,3 +87,17 @@ ALB = {
 	color = rgb { 149 45 102 }
 	color_ui = rgb { 194 59 133 }
 }
+BEL = { color 	 = rgb { 193 171 8  }
+		color_ui = rgb { 251 222 10 }
+}
+LUX = {
+	color = rgb { 65 175 179 }
+	color_ui = rgb { 85 228 233 }
+}
+HOL = {	color = rgb { 203 138 74 }
+		color_ui = rgb { 255 179 96 }
+}
+INS = {
+	color = rgb { 40  50  120 }
+	color_ui = rgb { 40  50  120 }
+}
