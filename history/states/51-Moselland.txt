@@ -13,7 +13,7 @@ state={
 	history={
 		owner = WGR
 		victory_points = {
-			6469 10 
+			6469 5 
 		}
 		victory_points = {
 			587 5 
@@ -21,9 +21,9 @@ state={
 		#victory_points = {
 		#	3444 5
 		#}
-		#victory_points = {
-		#	3547 1
-		#}
+		victory_points = {
+			3547 10
+		}
 		buildings = {
 			infrastructure = 8
 			arms_factory = 3
