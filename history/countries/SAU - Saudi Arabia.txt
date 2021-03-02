@@ -82,15 +82,16 @@ if = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = communism
-	last_election = "1933.7.1"
+	ruling_party = neutrality
+	last_election = "1932.9.23"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 10
-	fascism = 2
-	communism = 88
+	democratic = 1
+	fascism = 8
+	communism = 1
+	neutrality = 90
 }
 
 add_ideas = {
@@ -98,11 +99,11 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Joseph Stalin"
+	name = "Abdulaziz bin Al Saud"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_Soviet_Joseph_Stalin.dds"
-	expire = "1953.3.1"
-	ideology = stalinism
+	expire = "1953.11.9"
+	ideology = oligarchism
 	traits = {
 		
 	}

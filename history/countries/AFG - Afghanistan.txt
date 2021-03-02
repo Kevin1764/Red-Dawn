@@ -72,18 +72,27 @@ if = {
 	}
 }
 
+if = {
+	limit = {
+		has_dlc = "Battle for the Bosporus"
+	}
+	set_technology = { camelry = 1 }
+}
+
+
 set_convoys = 50
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1933.7.1"
+	ruling_party = neutrality
+	last_election = "1933.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 10
-	fascism = 2
-	communism = 88
+	democratic = 22
+	fascism = 5
+	communism = 22
+	neutrality = 51
 }
 
 add_ideas = {
@@ -91,11 +100,11 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Joseph Stalin"
+	name = "Mohammad Hadir Shah"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_Soviet_Joseph_Stalin.dds"
-	expire = "1953.3.1"
-	ideology = stalinism
+	expire = "2007.7.23"
+	ideology = oligarchism
 	traits = {
 		
 	}
