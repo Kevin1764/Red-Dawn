@@ -121,3 +121,7 @@ SPE = {
 	color = rgb { 242  113  86 }
 	color_ui = rgb { 242  113  86 }
 }
+ETH = {
+	color = rgb { 152  130  191 }
+	color_ui = rgb { 152  130  191 }
+}
