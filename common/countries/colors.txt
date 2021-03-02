@@ -125,3 +125,7 @@ ETH = {
 	color = rgb { 152  130  191 }
 	color_ui = rgb { 152  130  191 }
 }
+AUS = {
+	color = rgb { 194 198 215 }
+	color_ui = rgb { 255 255 255 }
+}
