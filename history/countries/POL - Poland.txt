@@ -88,9 +88,8 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 10
-	fascism = 2
-	communism = 88
+	democratic = 15
+	communism = 85
 }
 
 add_ideas = {
@@ -98,7 +97,7 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Joseph Stalin"
+	name = "Bolesław Bierut"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_Soviet_Joseph_Stalin.dds"
 	expire = "1953.3.1"
