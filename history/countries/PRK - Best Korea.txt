@@ -1,14 +1,5 @@
 ﻿capital = 527
 
-oob = "SOV_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "SOV_1936_naval_mtg"
-	else = {
-		set_naval_oob = "SOV_1936_naval_legacy"
-	}
-}
-
 set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.8
