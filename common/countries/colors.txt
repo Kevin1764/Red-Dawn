@@ -165,3 +165,15 @@ FIN = {
 	color = rgb { 205 212 228 }
 	color_ui = rgb { 255 255 255 }
 }
+IRE = {
+	color = rgb { 80 159 90 }
+	color_ui = rgb { 104 207 117 }
+}
+ICE = {
+	color = rgb { 100  125  175 }
+	color_ui = rgb { 100  125  175 }
+}
+POR = {
+	color = rgb { 39 116 70 }
+	color_ui = rgb { 51 151 91 }
+}
