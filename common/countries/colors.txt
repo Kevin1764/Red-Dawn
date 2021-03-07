@@ -145,3 +145,7 @@ PRK = {
 	color = rgb { 225  2  82 }
 	color_ui = rgb { 225  2  82 }
 }
+KOR = {
+	color = rgb { 255  240  195 }
+	color_ui = rgb { 255 248 229 }	
+}
