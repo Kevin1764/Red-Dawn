@@ -137,8 +137,11 @@ SYR = {
 	color = rgb { 100  100  150 }
 	color_ui = rgb { 100  100  150 }
 }
-}
 ITA = {
 	color = rgb { 67 127 63 }
 	color_ui = rgb { 87 165 82 }
+}
+PRK = {
+	color = rgb { 225  2  82 }
+	color_ui = rgb { 225  2  82 }
 }
