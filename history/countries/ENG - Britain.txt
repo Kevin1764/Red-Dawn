@@ -83,6 +83,40 @@ if = {
 
 set_convoys = 50
 
+# DIPLOMACY
+
+set_autonomy = {
+	target = MAL
+	autonomous_state = autonomy_colony
+}
+set_autonomy = {
+	target = EGY
+	autonomous_state = autonomy_dominion
+	freedom_level = 0.35
+}
+set_autonomy = {
+	target = CAN
+	autonomous_state = autonomy_dominion
+	freedom_level = 0.4
+}
+set_autonomy = {
+	target = SAF
+	autonomous_state = autonomy_dominion
+	freedom_level = 0.4
+}
+set_autonomy = {
+	target = AST
+	autonomous_state = autonomy_dominion
+	freedom_level = 0.2
+}
+set_autonomy = {
+	target = NZL
+	autonomous_state = autonomy_dominion
+	freedom_level = 0.2
+}
+	
+}
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1933.7.1"
