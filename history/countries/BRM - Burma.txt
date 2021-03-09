@@ -1,6 +1,4 @@
-capital = 433
-
-oob = "PAK_1936"
+﻿capital = 288
 
 set_research_slots = 3
 set_stability = 0.5
@@ -75,15 +73,15 @@ if = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = communism
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 88
+	democratic = 10
 	fascism = 2
-	communism = 10
+	communism = 88
 }
 
 add_ideas = {
@@ -91,11 +89,11 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Sir Khawaja Nazimuddin"
+	name = "Joseph Stalin"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_Soviet_Joseph_Stalin.dds"
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = stalinism
 	traits = {
 		
 	}
