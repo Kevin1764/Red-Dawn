@@ -81,6 +81,8 @@
 
  PAK_neutrality:0 "Islamic Republic of Pakistan"
  PAK_neutrality_DEF:0 "Islamic Republic of Pakistan"
+ PAK_democratic:0 "Dominion of Pakistan"
+ PAK_democratic_DEF:0 "the Dominion of Pakistan"
  PAK_communism:1 "People's Republic of Pakistan"
  PAK_communism_DEF:0 "the People's Republic of Pakistan"
  PAK_fascism_ADJ:0 "Pakistani"
