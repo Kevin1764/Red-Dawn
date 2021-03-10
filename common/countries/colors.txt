@@ -237,3 +237,11 @@ SRA = {
 	color = rgb { 57 113 228 }
 	color_ui = rgb { 74 147 255 }
 }
+YEM = {
+	color = rgb { 155 101 107 }
+	color_ui = rgb { 202 131 139 }
+}
+OMA = {
+	color = rgb { 155 101 107 }
+	color_ui = rgb { 202 131 139 }
+}

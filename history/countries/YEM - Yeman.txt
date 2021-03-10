@@ -1,15 +1,6 @@
-﻿capital = 16
+﻿capital = 293
 
-oob = "FRA_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "FRA_1936_naval_mtg"
-		set_war_support = 0.1
-	else = {
-		set_naval_oob = "FRA_1936_naval_legacy"
-		set_war_support = 0.15
-	}
-}
+oob = "YEM_1936"
 
 set_research_slots = 3
 set_stability = 0.5
@@ -83,13 +74,8 @@ if = {
 
 set_convoys = 50
 
-set_autonomy = {
-	target = SRA
-	autonomous_state = autonomy_supervised_state
-	freedom_level = 0.35
-
 set_politics = {
-	ruling_party = democratic
+	ruling_party = communism
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
