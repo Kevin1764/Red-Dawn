@@ -245,3 +245,7 @@ OMA = {
 	color = rgb { 155 101 107 }
 	color_ui = rgb { 202 131 139 }
 }
+LEB = {
+	color = rgb { 178  114  99 }
+	color_ui = rgb { 178  114  99 }
+}
