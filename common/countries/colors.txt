@@ -205,3 +205,31 @@ LIB = {
 	color = rgb { 152 130 191 }
 	color_ui = rgb { 198 169 248 }
 }
+MEX = {
+	color = rgb { 104 152 83 }
+	color_ui = rgb { 135 198 108 }
+}
+NEP = {
+	color = rgb { 152 130 191 }
+	color_ui = rgb { 198 169 248 }
+}
+NIC = {
+	color = rgb { 146 179 191 }
+	color_ui = rgb { 146 179 191 }
+}
+NZL = {
+	color = rgb { 152 130 191 }
+	color_ui = rgb { 198 169 248 }
+}
+PAN = {
+	color = rgb { 152 130 191 }
+	color_ui = rgb { 198 169 248 }
+}
+PHI = {
+	color = rgb { 152 130 191 }
+	color_ui = rgb { 198 169 248 }
+}
+PRU = {
+	color = rgb { 196 189 204 }
+	color_ui = rgb { 255 246 255 }
+}
