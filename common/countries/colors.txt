@@ -237,3 +237,7 @@ SRA = {
 	color = rgb { 57 113 228 }
 	color_ui = rgb { 74 147 255 }
 }
+LEB = {
+	color = rgb { 178  114  99 }
+	color_ui = rgb { 178  114  99 }
+}
