@@ -201,3 +201,7 @@ TIB = {
 	color = rgb { 80 115 45}
 	color_ui = rgb { 222 247 198 }
 }
+LIB = {
+	color = rgb { 152 130 191 }
+	color_ui = rgb { 198 169 248 }
+}
