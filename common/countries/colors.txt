@@ -249,3 +249,7 @@ LEB = {
 	color = rgb { 178  114  99 }
 	color_ui = rgb { 178  114  99 }
 }
+AST = {
+	color = rgb { 57 143 97 }
+	color_ui = rgb { 74 186 126 }
+}
