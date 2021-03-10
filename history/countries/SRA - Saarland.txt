@@ -1,15 +1,4 @@
-﻿capital = 16
-
-oob = "FRA_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "FRA_1936_naval_mtg"
-		set_war_support = 0.1
-	else = {
-		set_naval_oob = "FRA_1936_naval_legacy"
-		set_war_support = 0.15
-	}
-}
+﻿capital = 42
 
 set_research_slots = 3
 set_stability = 0.5
@@ -83,10 +72,6 @@ if = {
 
 set_convoys = 50
 
-set_autonomy = {
-	target = SRA
-	autonomous_state = supervised_state
-
 set_politics = {
 	ruling_party = democratic
 	last_election = "1933.7.1"
@@ -104,11 +89,11 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Joseph Stalin"
+	name = "Johannes Hoffmann"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_Soviet_Joseph_Stalin.dds"
 	expire = "1953.3.1"
-	ideology = stalinism
+	ideology = conservatism
 	traits = {
 		
 	}
