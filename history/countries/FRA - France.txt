@@ -87,6 +87,23 @@ set_autonomy = {
 	target = SRA
 	autonomous_state = autonomy_supervised_state
 	freedom_level = 0.35
+}	
+set_autonomy = {
+	target = SVI
+	autonomous_state = autonomy_sdominion
+	freedom_level = 0.35
+}
+set_autonomy = {
+	target = LAO
+	autonomous_state = autonomy_sdominion
+	freedom_level = 0.35
+}
+set_autonomy = {
+	target = CAM
+	autonomous_state = autonomy_sdominion
+	freedom_level = 0.35
+}
+
 
 set_politics = {
 	ruling_party = democratic
@@ -105,11 +122,11 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Joseph Stalin"
+	name = "Georges Bidault"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_Soviet_Joseph_Stalin.dds"
 	expire = "1953.3.1"
-	ideology = stalinism
+	ideology = conservatism
 	traits = {
 		
 	}

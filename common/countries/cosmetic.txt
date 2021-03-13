@@ -1,3 +1,18 @@
+SVI_FR_neutrality = {
+    color = rgb { 57  113  228 }
+	color_ui = rgb { 57  113  228 }
+}
+
+LAO_FR_neutrality = {
+    color = rgb { 57  113  228 }
+	color_ui = rgb { 57  113  228 }
+}
+
+CAM_FR_neutrality = {
+    color = rgb { 57  113  228 }
+	color_ui = rgb { 57  113  228 }
+}
+
 MAL_UK = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }
