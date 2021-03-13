@@ -266,8 +266,8 @@ MAL = {
 	color_ui = rgb { 213  169  121 }
 }
 VIN = {
-	color = rgb { 230  223  50 }
-	color_ui = rgb { 230  223  50 }
+	color = rgb { 225  47  4 }
+	color_ui = rgb { 225  47  4 }
 }
 
 CAM = {
