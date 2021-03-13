@@ -265,3 +265,20 @@ MAL = {
 	color = rgb { 197  96  100 }
 	color_ui = rgb { 213  169  121 }
 }
+VIN = {
+	color = rgb { 230  223  50 }
+	color_ui = rgb { 230  223  50 }
+}
+
+CAM = {
+	color = rgb { 100  71  150 }
+	color_ui = rgb { 100  71  150 }
+}
+LAO = {
+	color = rgb { 176  102  136 }
+	color_ui = rgb { 176  102  136 }
+}
+SVI = {
+	color = rgb { 57 113 228 }
+	color_ui = rgb { 74 147 255 }
+}
