@@ -81,11 +81,6 @@ if = {
 
 set_convoys = 50
 
-set_autonomy = {
-		target = INS
-		autonomous_state = autonomy_integrated_puppet
-}
-
 set_politics = {
 	ruling_party = communism
 	last_election = "1933.7.1"
