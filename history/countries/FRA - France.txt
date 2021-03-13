@@ -90,17 +90,17 @@ set_autonomy = {
 }	
 set_autonomy = {
 	target = SVI
-	autonomous_state = autonomy_sdominion
+	autonomous_state = autonomy_dominion
 	freedom_level = 0.35
 }
 set_autonomy = {
 	target = LAO
-	autonomous_state = autonomy_sdominion
+	autonomous_state = autonomy_dominion
 	freedom_level = 0.35
 }
 set_autonomy = {
 	target = CAM
-	autonomous_state = autonomy_sdominion
+	autonomous_state = autonomy_dominion
 	freedom_level = 0.35
 }
 
