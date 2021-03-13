@@ -350,6 +350,6 @@ HAI = {
 	color_ui = rgb { 174 113 113 }
 }
 JAM = {
-	color = rgb {{ 102 102 0 }
+	color = rgb { 102 102 0 }
 	color_ui = rgb { 102 102 0 }
 }
