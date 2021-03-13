@@ -74,6 +74,8 @@ if = {
 
 set_convoys = 50
 
+set_cosmetic_tag = JAP_allied_occupation
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1933.7.1"
@@ -81,9 +83,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 10
-	fascism = 2
-	communism = 88
+	democratic = 40
+	fascism = 3
+	communism = 7
+	neutrality = 50
 }
 
 add_ideas = {
