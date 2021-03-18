@@ -1,0 +1,24 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_goal_unknown"
+		texturefile = "gfx/interface/goals/goal_unknown.dds"
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_stalin_era"
+		texturefile = "gfx/interface/goals/focus_sov_stalin_era.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_generic_industry_3"
+		texturefile = "gfx/interface/goals/focus_generic_industry_3.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_generic_construction"
+		texturefile = "gfx/interface/goals/goal_generic_construction.dds"
+	}
+	
+}
