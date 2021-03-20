@@ -1,6 +1,6 @@
-﻿capital = 324
+﻿capital = 230 #Yerevan, Armenia
 
-oob = "BHU_1936"
+oob = "AZR_1936"
 
 set_research_slots = 3
 set_stability = 0.5
@@ -75,7 +75,7 @@ if = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = communism
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -94,7 +94,7 @@ create_country_leader = {
 	name = "Joseph Stalin"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_Soviet_Joseph_Stalin.dds"
-	expire = "1953.3.1"
+	expire = "1955.3.1"
 	ideology = stalinism
 	traits = {
 		
