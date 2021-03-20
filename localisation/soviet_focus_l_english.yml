@@ -1,3 +1,7 @@
 ﻿l_english:
   SOV_stalin_era:0 "The Stalin Era"
-   SOV_stalin_era_desc:0 ""
+  SOV_stalin_era_desc:0 "Since the death of comrade Lenin, Marshal Stalin has led us in our socialist struggle, in wars and crises; with him we have always succeeded and achieved a socialist economy. Now more than ever we must follow his Marxist ideas in order to get the final victory in the conflict against capitalism."
+  SOV_finish_reconstruction_of_our_nation:0 "Finish rebuilding our nation"
+  SOV_finish_reconstruction_of_our_nation_desc:0 ""
+  SOV_export_industrial_equipment_to_eastern_europe:0 "Export Industrial Equipment to Eastern Europe"
+  SOV_export_industrial_equipment_to_eastern_europe_desc:0 ""

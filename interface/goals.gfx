@@ -21,4 +21,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_generic_construction.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_focus_prc_flag"
+		texturefile = "gfx/interface/goals/focus_prc_flag.dds"
+		legacy_lazy_load = no
+	}
+	
 }
