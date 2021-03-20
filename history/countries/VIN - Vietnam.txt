@@ -72,6 +72,8 @@ if = {
 	}
 }
 
+set_cosmetic_tag = VIN_vietminh
+
 set_convoys = 50
 
 set_politics = {
