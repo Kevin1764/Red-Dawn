@@ -97,7 +97,7 @@ bookmarks = {
 				home_of_revolution
 			}
 			focuses = {
-				
+				SOV_sino_soviet_treaty_friendship
 				
 			}	
 		}
