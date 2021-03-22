@@ -101,7 +101,7 @@ create_country_leader = {
 	name = "Joseph Stalin"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_Soviet_Joseph_Stalin.dds"
-	expire = "1955.3.1"
+	expire = "1955.4.16"
 	ideology = stalinism
 	traits = {
 		
