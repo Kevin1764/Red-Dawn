@@ -12,18 +12,6 @@ music = {
 
 # PEACE SONGS ##################
 music = {
-	song = "mainthemeallies"
-	
-	chance = {
-		modifier = {
-			factor = 1
-
-			has_war = no
-		}		
-	}	
-}
-
-music = {
 	song = "general_peace_1"
 	
 	chance = {
