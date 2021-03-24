@@ -1,0 +1,26 @@
+ideas = {
+	country = {
+		comecon_member = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no 
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+				production_speed_buildings_factor = 0.20
+			}
+		}
+	}
+	
+}

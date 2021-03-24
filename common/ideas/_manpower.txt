@@ -28,7 +28,9 @@ ideas = {
 			level = 6
 			
 			available = {
-				#has_manpower_for_recruit_change_to =  { value = 0.015 group = mobilization_laws }				
+				#has_manpower_for_recruit_change_to =  { value = 0.015 group = mobilization_laws }
+				NOT = { has_idea = undisturbed_isolation }
+				NOT = { has_idea = isolation }
 			}
 
 			ai_will_do = {
@@ -58,6 +60,9 @@ ideas = {
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.025 group = mobilization_laws }
 				has_war_support > 0.1
+				NOT = { has_idea = undisturbed_isolation }
+				NOT = { has_idea = isolation }
+
 			}
 
 			modifier = {
@@ -70,6 +75,11 @@ ideas = {
 					#Prio if low on manpower
 					factor = 20
 					manpower_per_military_factory <  1000
+				}
+				modifier = {
+					tag = ENG
+					has_idea_with_trait = military_theorist
+					factor = 20
 				}
 			}
 			
@@ -95,6 +105,7 @@ ideas = {
 					}					
 				}
 				has_war_support > 0.2
+
 			}
 			ai_will_do = {
    				factor = 1
@@ -102,7 +113,21 @@ ideas = {
 					#Prio if low on manpower
 					factor = 20
 					manpower_per_military_factory <  800
-				}		
+				}
+
+				modifier = {
+					tag = TUR
+					has_dlc = "Battle for the Bosporus"
+					factor = 50
+				}
+
+				modifier = { # china relies a lot on throwing bodies at the enemy
+					factor = 3
+
+					tag = CHI
+					has_manpower < 200000
+				}
+				
 			}
 			
 			cost = 150
@@ -159,7 +184,7 @@ ideas = {
 				modifier = {
 					#Block has plenty manpower
 					factor = 0
-					NOT = { tag = PRC
+					NOT = { tag = CHI }
 					NOT = { tag = SOV }
 					manpower_per_military_factory >  3000
 				}
@@ -167,8 +192,15 @@ ideas = {
 				modifier = { # china relies a lot on throwing bodies at the enemy
 					factor = 3
 
-					tag = PRC
+					tag = CHI
 					has_manpower < 200000
+				}
+
+				modifier = { # germany needs this before russia, badly
+					factor = 10
+
+					original_tag = GER
+					has_manpower < 2000000
 				}
 				modifier = {
 					factor = 1000
@@ -210,6 +242,7 @@ ideas = {
 				#		ratio > 0.75
 				#	}
 				#}
+
 			}
 
 			ai_will_do = {
@@ -227,15 +260,21 @@ ideas = {
 				modifier = {
 					#Block has plenty manpower
 					factor = 0
-					NOT = { tag = PRC }
+					NOT = { tag = CHI }
 					manpower_per_military_factory >  5000
 				}
 
 				modifier = { # china relies a lot on throwing bodies at the enemy
 					factor = 3
 
-					tag = PRC
+					tag = CHI
 					has_manpower < 200000
+				}
+				modifier = {
+					factor = 10
+					original_tag = SOV
+					date > 1943.1.1
+					has_manpower < 2000000	
 				}
 			}
 		
