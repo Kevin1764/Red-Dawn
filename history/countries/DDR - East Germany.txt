@@ -88,6 +88,8 @@ add_ideas = {
 
 }
 
+give_military_access = SOV
+
 create_country_leader = {
 	name = "Wilhelm Pieck"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"

@@ -94,7 +94,11 @@ set_popularities = {
 
 add_ideas = {
 
+  comecon_member
+
 }
+
+give_military_access = SOV
 
 create_country_leader = {
 	name = "Bolesław Bierut"
