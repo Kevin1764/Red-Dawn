@@ -1,0 +1,14 @@
+ideas = {
+
+    country = {
+	    SPE_enlaces = {
+		
+		}
+		
+		SPE_operacion_reconquista_de_españa = {
+		
+		}
+		
+		
+	}
+}

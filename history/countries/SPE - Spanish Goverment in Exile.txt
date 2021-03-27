@@ -89,20 +89,34 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 10
-	fascism = 2
-	communism = 88
+	communism = 50
+	neutrality = 40
 }
 
 add_ideas = {
 
+  SPE_enlaces
+  SPE_operacion_reconquista_de_españa
+
 }
 
 create_country_leader = {
-	name = "Joseph Stalin"
+	name = "Vicente López Tovar"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_Soviet_Joseph_Stalin.dds"
 	expire = "1953.3.1"
-	ideology = stalinism
+	ideology = marxism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Josep Lluis Facerias"
+	desc = "POLITICS_JOSEPH_STALIN_DESC"
+	picture = "Portrait_Soviet_Joseph_Stalin.dds"
+	expire = "1953.3.1"
+	ideology = anarchism
 	traits = {
 		
 	}
