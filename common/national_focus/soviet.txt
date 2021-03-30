@@ -91,7 +91,7 @@
 	}
 	
 	focus = {
-	    id = SOV_a
+	    id = SOV_recover_industrial_capacity
 		icon = GFX_focus_generic_construction
 		prerequisite = { focus = SOV_finish_reconstruction_of_our_nation }
 		x = -2
@@ -113,10 +113,10 @@
 	focus = {
 	    id = SOV_b
 		icon = GFX_focus_generic_construction
-		prerequisite = { focus = SOV_a }
+		prerequisite = { focus = SOV_recover_industrial_capacity }
 		x = -1
 		y = 1
-		relative_position_id = SOV_a 
+		relative_position_id = SOV_recover_industrial_capacity 
 		cost = 5
 		ai_will_do = {
 			factor = 5
@@ -133,10 +133,10 @@
 	focus = {
 	    id = SOV_c
 		icon = GFX_focus_generic_construction
-		prerequisite = { focus = SOV_a }
+		prerequisite = { focus = SOV_recover_industrial_capacity }
 		x = 1
 		y = 1
-		relative_position_id = SOV_a 
+		relative_position_id = SOV_recover_industrial_capacity 
 		cost = 5
 		ai_will_do = {
 			factor = 5
@@ -258,7 +258,27 @@
 	    id = SOV_the_ministry_of_state_security
 		icon = GFX_focus_generic_industry_3
 		prerequisite = { focus = SOV_stalin_era }
-		x = -5
+		x = -8
+		y = 1
+		relative_position_id = SOV_stalin_era 
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available_if_capitulated = no
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+
+		}	
+	}
+	
+	focus = {
+	    id = SOV_the_ministry_of_internal_affairs
+		icon = GFX_focus_generic_industry_3
+		prerequisite = { focus = SOV_stalin_era }
+		x = -10
 		y = 1
 		relative_position_id = SOV_stalin_era 
 		cost = 5
@@ -278,7 +298,7 @@
 	    id = SOV_reform_our_army
 		icon = GFX_focus_generic_industry_3
 		prerequisite = { focus = SOV_stalin_era }
-		x = -8
+		x = -5
 		y = 1
 		relative_position_id = SOV_stalin_era 
 		cost = 5
@@ -313,11 +333,93 @@ focus = {
 
 		}	
 	}
+	
+focus = {
+	    id = SOV_the_struggle_for_succesion
+		icon = GFX_focus_generic_industry_3
+		prerequisite = { focus = SOV_traitors_among_us }
+		x = 0
+		y = 1
+		relative_position_id = SOV_traitors_among_us 
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available_if_capitulated = no
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+
+		}	
+	}
+	
+focus = {
+	    id = SOV_stalin's_heirs
+		icon = GFX_focus_generic_industry_3
+		prerequisite = { focus = SOV_the_struggle_for_succesion }
+		x = 0
+		y = 1
+		relative_position_id = SOV_the_struggle_for_succesion 
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available_if_capitulated = no
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+
+		}	
+	}
+	
+focus = {
+	    id = SOV_promote_malenkov's_pragmatism
+		icon = GFX_focus_generic_industry_3
+		prerequisite = { focus = SOV_stalin's_heirs }
+		mutually_exclusive = { focus = SOV_promote_khruschev's_idealism }
+		x = -1
+		y = 1
+		relative_position_id = SOV_stalin's_heirs 
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available_if_capitulated = no
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+
+		}	
+	}
+	
+focus = {
+	    id = SOV_promote_khruschev's_idealism
+		icon = GFX_focus_generic_industry_3
+		prerequisite = { focus = SOV_stalin's_heirs }
+		mutually_exclusive = { focus = SOV_promote_malenkov's_pragmatism }
+		x = 1
+		y = 1
+		relative_position_id = SOV_stalin's_heirs 
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available_if_capitulated = no
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+
+		}	
+	}
 
 focus = {
 	    id = SOV_preparations_korean_war
 		icon = GFX_focus_generic_industry_3
-		x = 20
+		x = 21
 		y = 0
 		cost = 5
 		ai_will_do = {
