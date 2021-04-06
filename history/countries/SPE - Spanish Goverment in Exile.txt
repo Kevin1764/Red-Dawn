@@ -95,9 +95,6 @@ set_popularities = {
 
 add_ideas = {
 
-  SPE_enlaces
-  SPE_operacion_reconquista_de_españa
-
 }
 
 create_country_leader = {
