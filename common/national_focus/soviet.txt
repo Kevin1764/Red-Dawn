@@ -11,6 +11,8 @@
 	}
 	
 	default = no
+	
+	continuous_focus_position = { x = 30 y = 2000 } 
 
 	focus = {
 		id = SOV_stalin_era
@@ -111,7 +113,7 @@
 	}
 	
 	focus = {
-	    id = SOV_b
+	    id = SOV_mobilize_gulag_workers
 		icon = GFX_focus_generic_construction
 		prerequisite = { focus = SOV_recover_industrial_capacity }
 		x = -1
@@ -131,7 +133,7 @@
 	}
 	
 	focus = {
-	    id = SOV_c
+	    id = SOV_rebuild_and_reorganize_collective_farms
 		icon = GFX_focus_generic_construction
 		prerequisite = { focus = SOV_recover_industrial_capacity }
 		x = 1
@@ -149,6 +151,131 @@
 
 		}	
 	}
+	
+	focus = {
+	    id = SOV_increase_steel_production
+		icon = GFX_focus_generic_construction
+		prerequisite = { focus = SOV_mobilize_gulag_workers }
+		x = 0
+		y = 1
+		relative_position_id = SOV_mobilize_gulag_workers 
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available_if_capitulated = no
+		
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+
+		}	
+	}
+	
+	focus = {
+	    id = SOV_demobilize_tractor_industry
+		icon = GFX_focus_generic_construction
+		prerequisite = { focus = SOV_rebuild_and_reorganize_collective_farms }
+		x = 0
+		y = 1
+		relative_position_id = SOV_rebuild_and_reorganize_collective_farms 
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available_if_capitulated = no
+		
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+
+		}	
+	}
+	
+	
+	
+	focus = {
+	    id = SOV_continue_expansion_heavy_industry
+		icon = GFX_focus_generic_construction
+		prerequisite = { focus = SOV_increase_steel_production }
+		x = 0
+		y = 1
+		relative_position_id = SOV_increase_steel_production 
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available_if_capitulated = no
+		
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+
+		}	
+	}
+	
+	focus = {
+	    id = SOV_continue_expansion_ukrainian_infraestructure
+		icon = GFX_focus_generic_construction
+		prerequisite = { focus = SOV_demobilize_tractor_industry }
+		x = 0
+		y = 1
+		relative_position_id = SOV_demobilize_tractor_industry 
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available_if_capitulated = no
+		
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+
+		}	
+	}
+	
+	focus = {
+	    id = SOV_finish_the_fourth_five_year_plan
+		icon = GFX_focus_generic_construction
+		prerequisite = { focus = SOV_continue_expansion_heavy_industry }
+		prerequisite = { focus = SOV_continue_expansion_ukrainian_infraestructure }
+		x = 1
+		y = 1
+		relative_position_id = SOV_continue_expansion_heavy_industry 
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available_if_capitulated = no
+		
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+
+		}	
+	}
+	
+	focus = {
+	    id = SOV_the_fifth_five_year_plan
+		icon = GFX_focus_generic_construction
+		prerequisite = { focus = SOV_finish_the_fourth_five_year_plan }
+		prerequisite = {  focus = SOV_19th_congress_of_the_communist_party }		
+		x = 1
+		y = 2
+		relative_position_id = SOV_continue_expansion_heavy_industry 
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available_if_capitulated = no
+		
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+
+		}	
+	}
+	
 	
 	focus = {
 	    id = SOV_international_relations
@@ -413,6 +540,25 @@ focus = {
 		completion_reward = {
 
 		}	
-	}			
+	}	
+
+
+focus = {
+	    id = SOV_19th_congress_of_the_communist_party
+		icon = GFX_focus_generic_industry_3
+		x = 3
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available_if_capitulated = no
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+
+		}	
+	}	
 	
 }
