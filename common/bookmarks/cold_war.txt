@@ -98,6 +98,7 @@ bookmarks = {
 			}
 			focuses = {
 				SOV_sino_soviet_treaty_friendship
+				SOV_the_moscow_affair
 				
 			}	
 		}

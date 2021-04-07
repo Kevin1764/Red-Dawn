@@ -463,7 +463,7 @@ focus = {
 	}
 	
 focus = {
-	    id = SOV_stalin's_heirs
+	    id = SOV_stalins_heirs
 		icon = GFX_focus_generic_industry_3
 		prerequisite = { focus = SOV_the_struggle_for_succesion }
 		x = 0
@@ -483,13 +483,13 @@ focus = {
 	}
 	
 focus = {
-	    id = SOV_promote_malenkov's_pragmatism
+	    id = SOV_promote_malenkovs_pragmatism
 		icon = GFX_focus_generic_industry_3
-		prerequisite = { focus = SOV_stalin's_heirs }
+		prerequisite = { focus = SOV_stalins_heirs }
 		mutually_exclusive = { focus = SOV_promote_khruschev's_idealism }
 		x = -1
 		y = 1
-		relative_position_id = SOV_stalin's_heirs 
+		relative_position_id = SOV_stalins_heirs 
 		cost = 5
 		ai_will_do = {
 			factor = 5
@@ -504,13 +504,54 @@ focus = {
 	}
 	
 focus = {
-	    id = SOV_promote_khruschev's_idealism
+	    id = SOV_promote_khruschevs_idealism
 		icon = GFX_focus_generic_industry_3
-		prerequisite = { focus = SOV_stalin's_heirs }
+		prerequisite = { focus = SOV_stalins_heirs }
 		mutually_exclusive = { focus = SOV_promote_malenkov's_pragmatism }
 		x = 1
 		y = 1
-		relative_position_id = SOV_stalin's_heirs 
+		relative_position_id = SOV_stalins_heirs 
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available_if_capitulated = no
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+
+		}	
+	}
+	
+focus = {
+	    id = SOV_the_moscow_affair
+		icon = GFX_focus_ger_strike_at_the_source
+		prerequisite = { focus = SOV_promote_khruschevs_idealism focus = SOV_promote_malenkovs_pragmatism }
+		mutually_exclusive = { focus = SOV_promote_malenkov's_pragmatism }
+		x = 1
+		y = 1
+		relative_position_id = SOV_promote_malenkovs_pragmatism
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available_if_capitulated = no
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+
+		}	
+	}
+	
+focus = {
+	    id = SOV_the_second_great_purge
+		icon = GFX_focus_eng_liberate_the_home_of_marx
+		prerequisite = { focus = SOV_the_moscow_affair }
+		x = 0
+		y = 1
+		relative_position_id = SOV_the_moscow_affair
 		cost = 5
 		ai_will_do = {
 			factor = 5
