@@ -255,7 +255,7 @@
 	}
 	
 	focus = {
-	    id = SOV_the_ministry_of_state_security
+	    id = SOV_internal_security
 		icon = GFX_focus_generic_industry_3
 		prerequisite = { focus = SOV_stalin_era }
 		x = -8
@@ -274,25 +274,6 @@
 		}	
 	}
 	
-	focus = {
-	    id = SOV_the_ministry_of_internal_affairs
-		icon = GFX_focus_generic_industry_3
-		prerequisite = { focus = SOV_stalin_era }
-		x = -10
-		y = 1
-		relative_position_id = SOV_stalin_era 
-		cost = 5
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available_if_capitulated = no
-		
-		search_filters = {FOCUS_FILTER_POLITICAL}
-		completion_reward = {
-
-		}	
-	}
 	
 	focus = {
 	    id = SOV_reform_our_army
