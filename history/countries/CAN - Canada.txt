@@ -98,11 +98,11 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "William Lyon Mackenzie King"
+	name = "Louis St. Laurent"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_Soviet_Joseph_Stalin.dds"
 	expire = "1953.3.1"
-	ideology = socialism
+	ideology = liberalism
 	traits = {
 		
 	}

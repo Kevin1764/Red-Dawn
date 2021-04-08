@@ -75,15 +75,16 @@ if = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 10
+	democratic = 25
 	fascism = 2
-	communism = 88
+	communism = 3
+	neutrality = 70
 }
 
 add_ideas = {
@@ -91,11 +92,11 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Joseph Stalin"
+	name = "Jigme Wangchuck"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_Soviet_Joseph_Stalin.dds"
 	expire = "1953.3.1"
-	ideology = stalinism
+	ideology = oligarchism
 	traits = {
 		
 	}
