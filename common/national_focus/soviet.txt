@@ -385,7 +385,7 @@
 	    id = SOV_internal_security
 		icon = GFX_focus_generic_industry_3
 		prerequisite = { focus = SOV_stalin_era }
-		x = -8
+		x = -12
 		y = 1
 		relative_position_id = SOV_stalin_era 
 		cost = 5
@@ -401,14 +401,138 @@
 		}	
 	}
 	
+	focus = {
+	    id = SOV_transfer_german_gulags_to_east_german_goverment
+		icon = GFX_focus_generic_industry_3
+		prerequisite = { focus = SOV_internal_security }
+		x = 0
+		y = 1
+		relative_position_id = SOV_internal_security 
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available_if_capitulated = no
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+
+		}	
+	}
+	
 	
 	focus = {
-	    id = SOV_reform_our_army
+	    id = SOV_finish_the_army_reform
 		icon = GFX_focus_generic_industry_3
 		prerequisite = { focus = SOV_stalin_era }
-		x = -5
+		x = -7
 		y = 1
 		relative_position_id = SOV_stalin_era 
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available_if_capitulated = no
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+	    id = SOV_abolish_the_position_of_chief_of_ground_forces
+		icon = GFX_focus_generic_industry_3
+		prerequisite = { focus = SOV_finish_the_army_reform }
+		x = -2
+		y = 1
+		relative_position_id = SOV_finish_the_army_reform 
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available_if_capitulated = no
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+	    id = SOV_dismantle_the_ukanian_insurgent_army
+		icon = GFX_focus_generic_industry_3
+		prerequisite = { focus = SOV_abolish_the_position_of_chief_of_ground_forces }
+		x = -1
+		y = 1
+		relative_position_id = SOV_abolish_the_position_of_chief_of_ground_forces 
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available_if_capitulated = no
+		
+		search_filters = {FOCUS_FILTER_STABILITY}
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	focus = {
+	    id = SOV_reoganize_the_armies_in_eastern_europe
+		icon = GFX_focus_generic_industry_3
+		prerequisite = { focus = SOV_abolish_the_position_of_chief_of_ground_forces }
+		x = 1
+		y = 1
+		relative_position_id = SOV_abolish_the_position_of_chief_of_ground_forces 
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available_if_capitulated = no
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	focus = {
+	    id = SOV_ballistic_missiles_experiments
+		icon = GFX_focus_generic_industry_3
+		prerequisite = { focus = SOV_finish_the_army_reform }
+		x = 1
+		y = 1
+		relative_position_id = SOV_finish_the_army_reform 
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available_if_capitulated = no
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+	    id = SOV_the_R_5_Pobeda
+		icon = GFX_focus_generic_industry_3
+		prerequisite = { focus = SOV_ballistic_missiles_experiments }
+		x = 0
+		y = 1
+		relative_position_id = SOV_ballistic_missiles_experiments 
 		cost = 5
 		ai_will_do = {
 			factor = 5
