@@ -1,0 +1,21 @@
+state={
+	id=810
+	name="STATE_810"
+	
+	history={
+		owner = AUS
+		victory_points = {
+			688 10
+		}
+		
+		add_core_of = AUS
+
+	}
+	
+	provinces={
+		668 688 3674 3675 6691 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

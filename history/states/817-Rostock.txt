@@ -1,0 +1,26 @@
+state={
+	id=817
+	name="STATE_817"
+	
+	history={
+		owner = DDR
+		victory_points = {
+			321 5
+		}
+		victory_points = {
+			11305 3
+		}
+		victory_points = {
+			9388 1
+		}
+		
+		add_core_of = DDR
+
+	}
+	provinces={
+		321 349 3340 9388 11305 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

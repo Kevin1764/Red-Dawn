@@ -1,0 +1,17 @@
+state={
+	id=819
+	name="STATE_819"
+	
+	history={
+		owner = DDR
+		
+		add_core_of = DDR
+
+	}
+	provinces={
+		538 6441 6501 6582 11545 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=town
+}

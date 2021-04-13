@@ -1,0 +1,18 @@
+state={
+	id=832
+	name="STATE_832"
+	
+	history={
+		owner = PRK
+		
+		add_core_of = PRK
+	    add_core_of = KOR
+
+	}
+	provinces={
+		978 3912 7171 9790 10083 11770 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=town
+}

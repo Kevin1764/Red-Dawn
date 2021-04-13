@@ -1,0 +1,23 @@
+state={
+	id=848
+	name="STATE_848"
+	
+	history={
+		owner = AUS
+		victory_points = {
+			3673 5
+		}
+		victory_points = {
+			9648 5
+		}
+		
+		add_core_of = AUS
+
+	}
+	provinces={
+		653 3673 6687 9646 9648 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=town
+}

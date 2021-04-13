@@ -1,0 +1,21 @@
+state={
+	id=835
+	name="STATE_835"
+	
+	history={
+		owner = PRK
+		victory_points = {
+			3803 3
+		}
+		
+		add_core_of = PRK
+	    add_core_of = KOR
+
+	}
+	provinces={
+		906 3803 3904 9899 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

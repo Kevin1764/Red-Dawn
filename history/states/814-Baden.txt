@@ -1,0 +1,18 @@
+state={
+	id=814
+	name="STATE_814"
+	
+	history={
+		owner = WGR
+		
+		add_core_of = WGR
+
+	}
+	
+	provinces={
+		3530 3679 3692 6542 6568 6712 6934 9655 11640 13126 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=city
+}

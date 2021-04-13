@@ -5,36 +5,26 @@ state={
 
 	history={
 		owner = DDR
-        add_core_of = DDR
-		victory_points = {
-			3522 5 
-		}
 		victory_points = {
 			6521 50 
 		}
-		
-		victory_points = {
-			9496 5
-		}
-		victory_points = {
-			11415 5
-		}
-		victory_points = {
-			3499 5
-		}
-		
+
 		buildings = {
 			infrastructure = 8
 			arms_factory = 5
 			industrial_complex = 4
 			anti_air_building = 2
-		}		
+			air_base = 6
+
+		}
+		add_core_of = DDR
+
 	}
 
 	provinces={
-		375 478 3367 3499 3522 6487 9428 9456 9496 9560 11219 11359 11415 11444 11505 6521
+		6521 
 	}
 	manpower=7265029
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=megalopolis
 }
