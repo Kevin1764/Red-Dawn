@@ -1,13 +1,11 @@
-﻿capital = 126
+﻿capital = 219
 
-set_oob = "ENG_1936"
+oob = "ENG_1936"
 if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_naval_oob = "ENG_1936_Naval"
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "ENG_1936_naval_mtg"
 	else = {
-		set_naval_oob = "ENG_1936_Naval_Legacy"
+		set_naval_oob = "ENG_1936_naval_legacy"
 	}
 }
 
@@ -81,10 +79,6 @@ if = {
 	}
 }
 
-set_convoys = 50
-
-# DIPLOMACY
-
 set_autonomy = {
 	target = MAL
 	autonomous_state = autonomy_colony
@@ -114,19 +108,19 @@ set_autonomy = {
 	autonomous_state = autonomy_dominion
 	freedom_level = 0.2
 }
-	
-}
+
+set_convoys = 50
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1933.7.1"
+	last_election = "1922.3.3"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 10
-	fascism = 2
-	communism = 88
+	democratic = 78
+	neutrality = 3
+	communism = 19
 }
 
 add_ideas = {
@@ -134,11 +128,11 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Joseph Stalin"
+	name = "Clement Attlee"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_Soviet_Joseph_Stalin.dds"
-	expire = "1953.3.1"
-	ideology = stalinism
+	expire = "1955.4.16"
+	ideology = socialism
 	traits = {
 		
 	}

@@ -3,7 +3,7 @@ state={
 	name="STATE_808"
 	
 	history={
-		owner = AUS
+		owner = SOV
 		
 		add_core_of = AUS
 
