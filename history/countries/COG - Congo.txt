@@ -1,6 +1,6 @@
-﻿capital = 6
+﻿capital = 295
 
-oob = "BEL_1936"
+oob = "COG_1936"
 
 set_research_slots = 3
 set_stability = 0.5
@@ -72,25 +72,20 @@ if = {
 	}
 }
 
-set_autonomy = {
-	target = COG
-	autonomous_state = autonomy_colony
-	freedom_level = 0.35
-}
+set_cosmetic_tag = COG_BEL
 
 set_convoys = 50
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1933.7.1"
+	ruling_party = communism
+	last_election = "1922.3.3"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 77
+	democratic = 10
 	fascism = 2
-	communism = 10
-	neutrality = 11
+	communism = 88
 }
 
 add_ideas = {
@@ -98,11 +93,11 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Gaston Eyskens"
+	name = "Joseph Stalin"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_Soviet_Joseph_Stalin.dds"
-	expire = "1953.3.1"
-	ideology = conservatism
+	expire = "1955.4.16"
+	ideology = stalinism
 	traits = {
 		
 	}
