@@ -610,7 +610,7 @@ focus = {
 	    id = SOV_promote_malenkovs_pragmatism
 		icon = GFX_focus_generic_industry_3
 		prerequisite = { focus = SOV_stalins_heirs }
-		mutually_exclusive = { focus = SOV_promote_khruschev's_idealism }
+		mutually_exclusive = { focus = SOV_promote_khruschevs_idealism }
 		x = -1
 		y = 1
 		relative_position_id = SOV_stalins_heirs 
@@ -631,7 +631,7 @@ focus = {
 	    id = SOV_promote_khruschevs_idealism
 		icon = GFX_focus_generic_industry_3
 		prerequisite = { focus = SOV_stalins_heirs }
-		mutually_exclusive = { focus = SOV_promote_malenkov's_pragmatism }
+		mutually_exclusive = { focus = SOV_promote_malenkovs_pragmatism }
 		x = 1
 		y = 1
 		relative_position_id = SOV_stalins_heirs 

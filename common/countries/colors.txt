@@ -396,3 +396,11 @@ SER = {
 	color = rgb { 160 110 110 }
 	color_ui = rgb { 160 110 110 }
 }
+PAL = {
+	color = rgb { 170  125  80 }
+	color_ui = rgb { 170  125  80 }
+}
+ISR = {
+	color = rgb { 152  130  191 }
+	color_ui = rgb { 152  130  191 }
+}

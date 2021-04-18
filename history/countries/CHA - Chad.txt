@@ -1,13 +1,4 @@
-﻿capital = 126
-
-oob = "ENG_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "ENG_1936_naval_mtg"
-	else = {
-		set_naval_oob = "ENG_1936_naval_legacy"
-	}
-}
+﻿capital = 774
 
 set_research_slots = 3
 set_stability = 0.5
@@ -79,48 +70,18 @@ if = {
 	}
 }
 
-set_autonomy = {
-	target = MAL
-	autonomous_state = autonomy_colony
-}
-set_autonomy = {
-	target = EGY
-	autonomous_state = autonomy_dominion
-	freedom_level = 0.35
-}
-set_autonomy = {
-	target = CAN
-	autonomous_state = autonomy_dominion
-	freedom_level = 0.4
-}
-set_autonomy = {
-	target = SAF
-	autonomous_state = autonomy_dominion
-	freedom_level = 0.4
-}
-set_autonomy = {
-	target = AST
-	autonomous_state = autonomy_dominion
-	freedom_level = 0.2
-}
-set_autonomy = {
-	target = NZL
-	autonomous_state = autonomy_dominion
-	freedom_level = 0.2
-}
-
 set_convoys = 50
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = communism
 	last_election = "1922.3.3"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 78
-	neutrality = 3
-	communism = 19
+	democratic = 10
+	fascism = 2
+	communism = 88
 }
 
 add_ideas = {
@@ -128,11 +89,11 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Clement Attlee"
+	name = "Joseph Stalin"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_Soviet_Joseph_Stalin.dds"
 	expire = "1955.4.16"
-	ideology = socialism
+	ideology = stalinism
 	traits = {
 		
 	}
