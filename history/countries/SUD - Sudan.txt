@@ -70,6 +70,8 @@ if = {
 	}
 }
 
+set_cosmetic_tag = SUD_UK
+
 set_convoys = 50
 
 set_politics = {
