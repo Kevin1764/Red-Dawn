@@ -1,4 +1,6 @@
 ﻿l_english:
+ SUD_UK:0 "Anglo-Egyptian Sudan"
+ SUD_UK_DEF:0 "Anglo-Egyptian Sudan"
  VIN_vietminh:0 "Viet Minh"
  VIN_vietminh_DEF:0 "the Viet Minh"
  VIN_north:0 "North Vietnam"
@@ -16,6 +18,8 @@
  INS_subject:0 "$OVERLORDADJ$ East Indies"
  INS_subject_DEF:0 "the $OVERLORDADJ$ East Indies"
  COG_subject:0 "$OVERLORDADJ$ Congo"
+ COG_BEL:0 "Belgian Congo"
+ COG_BEL_DEF:0 "the Belgiam Congo"
  MAL_subject:0 "$OVERLORDADJ$ Malaya"
  LBA_subject:0 "$OVERLORDADJ$ North Africa"
  SAU_subject:0 "$OVERLORDADJ$ Central Arabia"

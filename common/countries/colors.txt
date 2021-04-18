@@ -404,3 +404,15 @@ ISR = {
 	color = rgb { 152  130  191 }
 	color_ui = rgb { 152  130  191 }
 }
+FWA = {
+	color = rgb { 57  113  228 }
+	color_ui = rgb { 57  113  228 }
+}
+FEA = {
+	color = rgb { 57  113  228 }
+	color_ui = rgb { 57  113  228 }
+}
+COG = {
+	color = rgb { 152 159 209 }
+	color_ui = rgb { 152 159 209 }
+}

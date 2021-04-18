@@ -680,3 +680,13 @@ TBE_third_bulgarian_empire_neutrality = {
 	color = rgb { 138 249 195 }
 	color_ui = rgb { 138 249 195 }
 }
+
+COG_BEL = {
+	color = rgb { 193 171 8 }
+	color_ui = rgb { 193 171 8 }
+}
+
+SUD_UK = {
+	color = rgb { 201  56  93 }
+	color_ui = rgb { 201  56  93 }
+}
