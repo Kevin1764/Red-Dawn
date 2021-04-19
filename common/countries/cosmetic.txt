@@ -690,3 +690,7 @@ SUD_UK = {
 	color = rgb { 201  56  93 }
 	color_ui = rgb { 201  56  93 }
 }
+SOM_UK = {
+	color = rgb { 201  56  93 }
+	color_ui = rgb { 201  56  93 }
+}

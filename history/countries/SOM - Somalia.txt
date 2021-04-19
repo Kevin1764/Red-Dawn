@@ -72,6 +72,8 @@ if = {
 
 set_convoys = 50
 
+set_cosmetic_tag = SOM_UK
+
 set_politics = {
 	ruling_party = communism
 	last_election = "1922.3.3"

@@ -27,7 +27,6 @@ bookmarks = {
 			ideas = {
 				home_of_the_free
 				great_depression
-				undisturbed_isolation
 			}
 			focuses = {
 				USA_war_plan_black
@@ -50,7 +49,7 @@ bookmarks = {
 			}
 		}
 		"DDR"={
-			history = "ITA_GATHERING_STORM_DESC"
+			history = "DDR_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
 				vittoria_mutilata

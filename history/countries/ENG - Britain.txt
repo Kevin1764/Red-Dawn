@@ -105,12 +105,16 @@ set_autonomy = {
 set_autonomy = {
 	target = AST
 	autonomous_state = autonomy_dominion
-	freedom_level = 0.2
+	freedom_level = 0.4
 }
 set_autonomy = {
 	target = NZL
 	autonomous_state = autonomy_dominion
-	freedom_level = 0.2
+	freedom_level = 0.4
+}
+set_autonomy = {
+	target = SOM
+	autonomous_state = autonomy_colony
 }
 
 set_convoys = 50
