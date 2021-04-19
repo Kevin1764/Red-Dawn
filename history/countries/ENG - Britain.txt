@@ -116,6 +116,14 @@ set_autonomy = {
 	target = SOM
 	autonomous_state = autonomy_colony
 }
+set_autonomy = {
+	target = UGA
+	autonomous_state = autonomy_colony
+}
+set_autonomy = {
+	target = KEN
+	autonomous_state = autonomy_colony
+}
 
 set_convoys = 50
 

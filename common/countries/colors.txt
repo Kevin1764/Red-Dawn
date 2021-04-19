@@ -416,3 +416,7 @@ COG = {
 	color = rgb { 152 159 209 }
 	color_ui = rgb { 152 159 209 }
 }
+KEN = {
+	color = rgb { 145 103 14 }
+	color_ui = rgb { 145 103 14 }
+}

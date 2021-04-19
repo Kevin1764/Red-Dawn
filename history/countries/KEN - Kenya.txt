@@ -1,4 +1,6 @@
-﻿capital = 548
+﻿capital = 547
+
+oob = "KEN_1936"
 
 set_research_slots = 3
 set_stability = 0.5
@@ -72,7 +74,7 @@ if = {
 
 set_convoys = 50
 
-set_cosmetic_tag = UGA_UK
+set_cosmetic_tag = KEN_UK
 
 set_politics = {
 	ruling_party = communism
