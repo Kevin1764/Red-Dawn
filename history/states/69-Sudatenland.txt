@@ -15,23 +15,7 @@ state={
 		buildings = {
 			infrastructure = 8
 			industrial_complex = 2
-			anti_air_building = 1
 
-
-			3585 = {
-				bunker = 1
-
-			}
-	
-			6470 = {
-				bunker = 1
-
-			}
-
-			11432 = {
-				bunker = 1
-
-			}
 
 		}
 		add_core_of = CZE
