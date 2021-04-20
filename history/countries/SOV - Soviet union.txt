@@ -104,7 +104,10 @@ create_country_leader = {
 	expire = "1955.4.16"
 	ideology = stalinism
 	traits = {
-		
+		father_of_nations
+		great_architect_of_communism
+		general_secretary_of_the_communist_party
+		chairman_of_the_council_of_minister
 	}
 }
 
