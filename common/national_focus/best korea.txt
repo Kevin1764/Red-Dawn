@@ -1,0 +1,32 @@
+﻿focus_tree = {
+	id = best_korea_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = PRK
+			}
+	}
+	
+	default = no
+	
+focus = {
+		id = PRK_the_peoples_korea
+		icon = GFX_focus_SOV_stalin_era
+		x = 3
+		y = 0
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = no
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+
+		}
+	}
+}
