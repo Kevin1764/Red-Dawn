@@ -1,3 +1,47 @@
 leader_traits = {
 
+	guerrilla_leader = {
+		random = no
+		political_power_factor = 0.25
+		stability_factor = 0.05
+		war_support_factor = 0.10
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	father_of_nations = {
+		random = no
+		stability_factor = 0.1
+		communism_drift = 0.01
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	great_architect_of_communism = {
+		random = no
+		industrial_capacity_factory = 0.1
+		consumer_goods_factor = 0.05
+		production_speed_infrastructure_factor = 0.1
+		production_speed_industrial_complex_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1	
+		}
+	}
+	general_secretary_of_the_communist_party = {
+		random = no
+		
+		ai_will_do = {
+		factor = 1
+		}
+	}
+	chairman_of_the_council_of_minister = {
+		random = no
+		
+		ai_will_do = {
+		factor = 1
+		}
+	}
 }
