@@ -108,19 +108,34 @@ bookmarks = {
 
 
 		# minors from DLC ####
-		"POL"={
+
+
+		"PRK"={
 			minor = yes
-			history = "POL_GATHERING_STORM_DESC"
+			history = "AST_GATHERING_STORM_DESC"
 			ideology = communism
+			ideas = {
+				AST_great_depression_1
+			}
+			focuses = {
+				AST_never_another_gallipoli
+				AST_support_indonesian_uprising
+				AST_delegation_to_china
+			}
+		}
+		"KOR"={
+			minor = yes
+			history = "NZL_GATHERING_STORM_DESC"
+			ideology = neutrality
 			ideas = {
 				
 			}
 			focuses = {
-				POL_the_baltic_alliance
-				POL_draw_closer_to_britain
-				POL_seek_accommodation_with_germany
+				NZL_bob_semple_tank
+				NZL_independent_new_zealand
+				NZL_maori_volunteers
 			}
-		}
+		
 		"CAN"={
 			minor = yes
 			history = "CAN_GATHERING_STORM_DESC"
@@ -134,32 +149,8 @@ bookmarks = {
 				CAN_north_american_alliance
 				CAN_join_comintern
 			}
-		}
-		"AST"={
-			minor = yes
-			history = "AST_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				AST_great_depression_1
-			}
-			focuses = {
-				AST_never_another_gallipoli
-				AST_support_indonesian_uprising
-				AST_delegation_to_china
-			}
-		}
-		"NZL"={
-			minor = yes
-			history = "NZL_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				
-			}
-			focuses = {
-				NZL_bob_semple_tank
-				NZL_independent_new_zealand
-				NZL_maori_volunteers
-			}
+		}		
+			
 		}
 		"SAF"={
 			minor = yes
@@ -189,10 +180,25 @@ bookmarks = {
 				RAJ_the_smiling_buddha
 			}
 		}
+		
+		"POL"={
+			minor = yes
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				
+			}
+			focuses = {
+				POL_the_baltic_alliance
+				POL_draw_closer_to_britain
+				POL_seek_accommodation_with_germany
+			}
+		}		
+		
 		"CZE"={
 			minor = yes
 			history = "CZE_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = communism
 			ideas = {
 				CZE_skoda_works
 				CZE_divided_nation
@@ -232,6 +238,23 @@ bookmarks = {
 				ROM_preserve_greater_romania
 			}
 		}
+		
+		"BUL"={
+			minor = yes
+			history = "BUL_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				BUL_second_national_catastrophe
+				BUL_army_restrictions
+				BUL_imro_01
+			}
+			focuses = {
+				BUL_the_fatherland_front
+				BUL_restore_the_bulgarian_patriarchate
+				BUL_prussia_of_the_balkans
+			}
+		}
+	
 		
 		"YUG"={
 			minor = yes
@@ -280,10 +303,10 @@ bookmarks = {
 			}
 		}
 
-		"HOL"={
+		"JAP"={
 			minor = yes
 			history = "NETHERLANDS_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = neutrality
 			ideas = {
 				HOL_wilhelmina
 				HOL_shell_shocked_spectator_5
@@ -323,26 +346,11 @@ bookmarks = {
 			}
 		}
 
-		"BUL"={
-			minor = yes
-			history = "BUL_GATHERING_STORM_DESC"
-			ideology = communism
-			ideas = {
-				BUL_second_national_catastrophe
-				BUL_army_restrictions
-				BUL_imro_01
-			}
-			focuses = {
-				BUL_the_fatherland_front
-				BUL_restore_the_bulgarian_patriarchate
-				BUL_prussia_of_the_balkans
-			}
-		}
 
-		"GRE"={
+		"ITA"={
 			minor = yes
 			history = "GRE_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = democratic
 			ideas = {
 				GRE_debt_to_the_ifc
 				GRE_schachtplan
