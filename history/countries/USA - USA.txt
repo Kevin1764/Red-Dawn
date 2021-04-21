@@ -97,16 +97,7 @@ add_ideas = {
 
 }
 
-create_country_leader = {
-	name = "Eugene Dennis"
-	desc = "POLITICS_JOSEPH_STALIN_DESC"
-	picture = "Portrait_Soviet_Joseph_Stalin.dds"
-	expire = "1953.3.1"
-	ideology = stalinism
-	traits = {
-		
-	}
-}
+
 
 create_country_leader = {
 	name = "Harry S. Truman"
@@ -114,6 +105,17 @@ create_country_leader = {
 	picture = "Portrait_Soviet_Generic_1.dds"
 	expire = "1972.11.26"
 	ideology = liberalism
+	traits = {
+		democrat
+	}
+}
+
+create_country_leader = {
+	name = "Eugene Dennis"
+	desc = "POLITICS_JOSEPH_STALIN_DESC"
+	picture = "Portrait_Soviet_Joseph_Stalin.dds"
+	expire = "1953.3.1"
+	ideology = stalinism
 	traits = {
 		
 	}
