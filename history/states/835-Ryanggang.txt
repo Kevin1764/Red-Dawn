@@ -4,6 +4,12 @@ state={
 	
 	history={
 		owner = PRK
+		
+		buildings = {
+			infrastructure = 1
+
+		}
+		
 		victory_points = {
 			3803 3
 		}
@@ -15,7 +21,7 @@ state={
 	provinces={
 		906 3803 3904 9899 
 	}
-	manpower=0
+	manpower=200000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

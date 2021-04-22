@@ -4,6 +4,12 @@ state={
 	
 	history={
 		owner = PRK
+		
+		buildings = {
+			infrastructure = 3
+
+		}
+		
 		victory_points = {
 			848 10
 		}
@@ -15,7 +21,7 @@ state={
 	provinces={
 		848 4004 9981 11958 
 	}
-	manpower=0
+	manpower=1000000
 	buildings_max_level_factor=1.000
 	state_category=city
 }

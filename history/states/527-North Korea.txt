@@ -10,7 +10,7 @@ state={
 	history={
 		owner = PRK
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			industrial_complex = 1
 
 		}
@@ -25,7 +25,7 @@ state={
 	provinces={
 		4052 
 	}
-	manpower=6774200
+	manpower=1016000
 	buildings_max_level_factor=1.000
 	state_category=city
 }
