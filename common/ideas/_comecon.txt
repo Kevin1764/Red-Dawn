@@ -1,8 +1,6 @@
 ideas = {
 	country = {
 		comecon_member = {
-		
-			removal_cost = -1
 			
 			allowed = {
 				always = no 
@@ -17,7 +15,7 @@ ideas = {
 			picture = eng_spirit_of_the_industrial_revolution
 			
 			modifier = {
-				consumer_goods_factor = 0.1
+				consumer_goods_factor = 0.05
 				production_speed_buildings_factor = 0.20
 			}
 		}

@@ -87,14 +87,14 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = 0.45
+				consumer_goods_factor = 0.40
 				production_speed_industrial_complex_factor = 0.4
 				production_speed_arms_factory_factor = -0.7
 				conversion_cost_civ_to_mil_factor= 0.4
 				conversion_cost_mil_to_civ_factor = -0.3
 				max_fuel_factor = -0.25
 				fuel_gain_factor = -0.4
-				conscription = -0.1
+				conscription_factor = -0.5
 			}
 			
 			cancel_if_invalid = yes

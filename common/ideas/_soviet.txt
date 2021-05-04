@@ -1,6 +1,42 @@
 ideas = {
 	country = {
+		housing_shortage = {
+			
+			allowed = {
+				always = no 
+			}
 
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_central_management
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+				stability_factor = -0.2
+			}
+		}
+		
+		comecon = {
+			
+			allowed = {
+				always = no 
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+
+			picture = eng_spirit_of_the_industrial_revolution
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+				
+			}
+		}
 	}
 	
 }
