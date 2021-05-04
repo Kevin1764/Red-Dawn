@@ -94,8 +94,9 @@ set_popularities = {
 }
 
 add_ideas = {
-	comecon_member
+	comecon
 	demobilizing_economy
+	housing_shortage
 }
 
 create_country_leader = {

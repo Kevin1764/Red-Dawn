@@ -1,0 +1,56 @@
+﻿###########################
+# Soviet Events
+###########################
+
+add_namespace = soviet
+
+# Border Skirmish with the Japanese
+country_event = {
+	id = soviet.1
+	title = soviet.1.t
+	desc = soviet.1.d
+	picture = GFX_report_event_japanese_transport_soldiers
+	
+	is_triggered_only = yes
+	
+	option = { # Push back
+		name = soviet.1.a
+		ai_chance = { factor = 75 }
+		add_political_power = -25
+		hidden_effect = {
+			random_list = {
+				60 = {
+					JAP = {
+						country_event = { days = 1 id = japan.3 }
+					}
+				}
+				40 = {
+					JAP = {
+						country_event = { days = 1 id = japan.4 }
+					}
+				}
+			}
+		}
+		effect_tooltip = {
+			random_list = {
+				60 = {
+					country_event = soviet.2
+				}
+				40 = {
+					country_event = soviet.3
+				}
+			}
+		}
+	}
+	option = { # Yield
+		name = soviet.1.b
+		ai_chance = { factor = 25 }
+		JAP = {
+			effect_tooltip = {
+				add_stability = 0.05
+			}
+			country_event = { days = 1 id = japan.5 }
+		}
+	}
+}
+
