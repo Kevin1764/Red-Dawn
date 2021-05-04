@@ -101,8 +101,8 @@ add_ideas = {
 
 create_country_leader = {
 	name = "Harry S. Truman"
-	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
-	picture = "Portrait_Soviet_Generic_1.dds"
+	desc = "POLITICS_JOSEPH_STALIN_DESC"
+	picture = "Portrait_USA_Harry_Truman.dds"
 	expire = "1972.11.26"
 	ideology = liberalism
 	traits = {
