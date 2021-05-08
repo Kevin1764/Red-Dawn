@@ -75,14 +75,16 @@ if = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = monarchism
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 80
-	communism = 20
+	monarchism = 50
+	neutrality = 5
+	communism = 40
+	fascism =5
 }
 
 add_ideas = {
@@ -90,11 +92,11 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Joseph Stalin"
+	name = "Ngawang Sungrab Thutob"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_Soviet_Joseph_Stalin.dds"
-	expire = "1953.3.1"
-	ideology = despotism
+	expire = "1952.1.1"
+	ideology = teocracy
 	traits = {
 		
 	}
