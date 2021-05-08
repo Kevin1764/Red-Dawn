@@ -83,16 +83,17 @@ if = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = monarchism
 	last_election = "1933.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 22
+	democratic = 20
 	fascism = 5
-	communism = 22
-	neutrality = 51
+	communism = 20
+	neutrality = 18
+	monarchism = 37
 }
 
 add_ideas = {
@@ -100,11 +101,11 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Mohammad Hadir Shah"
+	name = "Mohammad Zadir Shah"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_Soviet_Joseph_Stalin.dds"
 	expire = "2007.7.23"
-	ideology = oligarchism
+	ideology = despotic_monarchy
 	traits = {
 		
 	}
