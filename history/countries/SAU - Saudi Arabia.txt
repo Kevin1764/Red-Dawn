@@ -82,7 +82,7 @@ if = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = monarchism
 	last_election = "1932.9.23"
 	election_frequency = 48
 	elections_allowed = no
@@ -91,7 +91,7 @@ set_popularities = {
 	democratic = 1
 	fascism = 8
 	communism = 1
-	neutrality = 90
+	monarchism = 90
 }
 
 add_ideas = {
@@ -101,9 +101,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Abdulaziz bin Al Saud"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
-	picture = "Portrait_Soviet_Joseph_Stalin.dds"
+	picture = "Portrait_Saudi_Arabia_Abdulazis_Ibn_Saud.dds"
 	expire = "1953.11.9"
-	ideology = oligarchism
+	ideology = teocracy
 	traits = {
 		
 	}
