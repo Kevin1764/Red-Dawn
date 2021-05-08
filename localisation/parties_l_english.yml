@@ -2,44 +2,67 @@
  monarchism:0 "Monarchist"
  monarchism_noun:0 "Monarchism"
  monarchism_desc:0 "Monarchic Regime"
- communism:0 "Communist"
- communism_noun:0 "Communism"
+ 
+ communism:0 "Orthodox Communist"
+ communism_noun:0 "Orthodox Communism"
+ communism_desc:0 "Proletarian Dictatorship"
+ 
  democratic:0 "Democratic"
  democratic_noun:0 "Democracy"
+ democratic_desc:0 "Democratic Regime"
+ 
  fascism:0 "Fascist"
  fascism_noun:0 "Fascism"
  fascism_desc:0 "Totalitarian Regime"
- communism_desc:0 "Totalitarian Regime"
- democratic_desc:0 "Democratic Regime"
+ 
+ neutrality:0 "Non-Aligned"
  neutrality_noun:0 "Non-Aligned"
  neutrality_desc:0 "Authoritarian Regime"
+ 
+ revisionist_communism:0 " Revisionist Communist"
+ revisionist_communism_noun:0 "Revisionist Communism"
+ revisionist_communism_desc:0 "Revisionist Socialist Regime"
  
  #Subideology
 
  constitutional_monarchy:0 "Constitutional Monarchy"
  constitutional_monarchy_desc:0 "A form of monarchy in which the monarch exercises authority in accordance with a written or unwritten constitution."
- absolutism:0 "Absolutism"
- absolutism_desc:0 "A form of monarchy in which the monarch holds supreme autocratic authority, principally not being restricted by written laws, legislature, or unwritten customs."
  teocracy:0 "Theocracy"
  teocracy_desc:0 "A form of government in which a deity of some type is recognized as the supreme ruling authority, giving divine guidance to human intermediaries that manage the day-to-day affairs of the government."
  despotic_monarchy:0 "Despotic Monarchy"
  despotic_monarchy_desc:0 "A form of government where the king, or despot, is the single greatest political force, and dominates government by force of will and arms. His rule is arbitrary, and there is little distinction between the interests of the realm and those of the monarch."
+
  conservatism:0 "Conservatism"
  conservatism_desc:0 "Considering rapid changes to society to be potentially harmful, conservatism espouses tradition and moderate reforms, sometimes advocating a return to old moral values."
  liberalism:0 "Liberalism"
  liberalism_desc:0 "With a long philosophical tradition of valuing personal liberty, liberalism views safeguarding these rights as the primary function of the state."
  socialism:0 "Socialism"
  socialism_desc:0 "Striving for equality and a socialist state by reformist means, democratic socialism aims to abolish or mitigate the effects of capitalism with public mandate."
+ authoritarian_democracy:0 "Authoritarian Democracy"
+ authoritarian_democracy_desc:0 "A form of democracy directed by a ruling elite of an authoritarian state that seeks to represent the different interests of society"
+ 
  marxism:0 "Marxism"
  marxism_desc:0 "Encompassing a broad spectrum of economic and historical views, Marxist politics seek to apply the theories of Karl Marx to political practice. Class struggle and the need for transition to a society based on common ownership of the means of production characterize these ideologies."
  leninism:0 "Leninism"
  leninism_desc:0 "A political ideology based in Marxist thought, Leninism seeks to establish a socialist state by a vanguard party leading a revolution overthrowing capitalist society. Once in power, the party rules through a system whereby policies are open for internal debate until a decision has been made."
- stalinism:0 "Stalinism"
- stalinism_desc:0 "Identifying as a form of government applying and developing Marxist-Leninist policies, Stalinism emphasizes rapid industrialization and collectivization as well as the need for a strong, authorative socialist state to purge any counter-revolutionary elements."
+ stalinism:0 "Marxism Leninism"
+ stalinism_desc:0 "Identifying as a form of government applying and developing orthodox socialist policies, Marxist-Leninist emphasizes rapid industrialization and collectivization as well as the need for a strong, authorative socialist state to purge any counter-revolutionary elements."
  anti_revisionism:0 "Anti-Revisionism"
  anti_revisionism_desc:0 "A reaction to the many ideologies claiming to be successors to Marxism, Anti-Revisionism advocates retaining key elements of original revolutionary theory. Mainly opposing incorporation of capitalist economic elements into socialist states, the ideology is defined as much by what it isn't as what it is."
+ market_socialism:0 "Market Socialism"
+ market_socialism_desc:0 "A type of economic system involving the public, cooperative, or social ownership of the means of production in the framework of a market economy."
+ 
+ titoism:0 "Titoism"
+ titoism_desc:0 "Titoism is a political philosophy most closely associated with Josip Broz Tito during the Cold War. It is characterized by a broad Yugoslav identity and workers' self-management"
+ trotskysm:0 "Trotskysm"
+ trotskysm_desc:0 "Is the political ideology and branch of Marxism developed by Russian revolutionary Leon Trotsky. Trotskysm is critical of Stalinism as they oppose Joseph Stalin's theory of socialism in one country in favor of Trotsky's theory of permanent revolution."
+ revisionism:0 "Revisionism"
+ revisionism_desc:0 "Revisionism represents various ideas, principles and theories that are based on a significant revision of fundamental Marxist premises that usually involve making an alliance with the bourgeois class."
  anarchist_communism:0 "Anarchist Communism"
  anarchist_communism_desc:0 "An ideology embracing the idea of communism as a stateless society, Anarchist Communism eschews the idea of a transitionary socialist state and favors a society based on voluntary associations and mutual aid."
+ syndicalism:0 "Syndicalism"
+ syndicalism_desc:0 "A political philosophy and anarchist school of thought that views revolutionary industrial unionism or syndicalism as a method for workers in capitalist society to gain control of an economy and thus control influence in broader society."
+ 
  nazism:0 "Nazism"
  nazism_desc:0 "Rooted in extreme nationalism, National Socialism is driven by ideas of Germanic supremacy. It promotes aggressive expansionism and a totalitarian state where the people are united under a leader with absolute power, the Führer."
  gen_nazism:0 "Nazism"
@@ -50,8 +73,9 @@
  falangism_desc:0 "An authoritarian ideology with traits of fascism and conservatism, Falangism values national and Catholic identity."
  rexism:0 "Rexism"
  rexism_desc:0 "Strongly opposed to both liberal and communist ideals, Rexism is a staunchly conservative nationalist movement who advocate a corporatist economic policy. Employing increasingly populist and authoritarian rhetoric, their ideals are shifting closer to other fascist movements."
- neutrality:0 "Non-Aligned"
-
+ jihadism:0 "Jihadism"
+ jihadism_desc:0 "A transnational, hybrid religious-political ideology based on the sunni Islamism seeking a Global caliphate, advocacy for "physical" jihadism and Salafi concepts of returning to true Islam."
+ 
  despotism:0 "Despotic"
  despotism_desc:0 "Despotism is a form of government in which a single person rules with absolute power."
  oligarchism:0 "Oligarchic"
@@ -62,6 +86,8 @@
  centrism_desc:1 "Centrism is a form of government which wants to achieve common sense solutions that appropriately address current and future needs, that support the public trust and serve the common good with consideration of risk and capacity in context of these needs."
  anarchism:0 "Anarchism"
  anarchism_desc:0 "Anarchism is the rejection of authority itself, promoting the division of society into self-managing and self-governing collectives instead of a singular, centralized state."
+ islamic_republic:0 "Theocratic Republic"
+ islamic_republic_desc:0 " It is a state under a particular theocratic form of government advocated by some Muslim religious leaders in the Middle East and Africa. The laws of the state are required to be compatible with the laws of Sharia, Islamic law, while the state remains a republic."
  
  #Parties
  
