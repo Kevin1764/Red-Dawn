@@ -1,0 +1,24 @@
+ideas = {
+	country = {
+		first_indochina_war = {
+			
+			allowed = {
+				always = no 
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = nam_wars
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+				stability_factor = -0.2
+				ai_call_ally_desire_factor = -1000
+			}
+		}
+		
+	}
+	
+}

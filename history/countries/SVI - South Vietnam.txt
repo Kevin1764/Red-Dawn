@@ -89,7 +89,7 @@ set_popularities = {
 }
 
 add_ideas = {
-
+	first_indochina_war
 }
 
 create_country_leader = {
