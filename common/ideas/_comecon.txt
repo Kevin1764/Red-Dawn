@@ -17,6 +17,35 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.05
 				production_speed_buildings_factor = 0.20
+				stability_factor = 0.1
+				communism_acceptance = 50
+				communism_drift = 0.03
+				production_factory_max_efficiency_factor = 0.1
+				
+			}
+		}
+		
+		comecon_observer = {
+			
+			allowed = {
+				always = no 
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+
+			picture = eng_spirit_of_the_industrial_revolution
+			
+			modifier = {
+				consumer_goods_factor = 0.01
+				production_speed_buildings_factor = 0.10
+				stability_factor = 0.05
+				communism_acceptance = 20
+				communism_drift = 0.01
+				
 			}
 		}
 	}
