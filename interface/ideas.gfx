@@ -5602,5 +5602,12 @@ spriteTypes = {
 		name = "GFX_idea_gre_metaxism_empowered"
 		texturefile = "gfx/interface/ideas/idea_gre_metaxism_empowered.dds"
 	}
+	
+	###New ideas
+	
+	spriteType = {
+		name = "GFX_idea_nam_wars"
+		texturefile = "gfx/interface/ideas/nam_wars.dds"
+	}
 
 }

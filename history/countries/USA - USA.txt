@@ -81,6 +81,11 @@ if = {
 
 set_convoys = 50
 
+set_autonomy = {
+	target = JAP
+	autonomous_state = autonomy_supervised_state
+}
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1945.4.12"
