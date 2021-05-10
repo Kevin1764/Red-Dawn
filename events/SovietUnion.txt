@@ -4,53 +4,34 @@
 
 add_namespace = soviet
 
-# Border Skirmish with the Japanese
 country_event = {
 	id = soviet.1
 	title = soviet.1.t
 	desc = soviet.1.d
-	picture = GFX_report_event_japanese_transport_soldiers
+	picture = GFX_report_event_stalin_propaganda
 	
 	is_triggered_only = yes
 	
-	option = { # Push back
+	option = { 
 		name = soviet.1.a
-		ai_chance = { factor = 75 }
-		add_political_power = -25
-		hidden_effect = {
-			random_list = {
-				60 = {
-					JAP = {
-						country_event = { days = 1 id = japan.3 }
-					}
-				}
-				40 = {
-					JAP = {
-						country_event = { days = 1 id = japan.4 }
-					}
-				}
-			}
-		}
-		effect_tooltip = {
-			random_list = {
-				60 = {
-					country_event = soviet.2
-				}
-				40 = {
-					country_event = soviet.3
-				}
-			}
-		}
-	}
-	option = { # Yield
-		name = soviet.1.b
-		ai_chance = { factor = 25 }
-		JAP = {
-			effect_tooltip = {
-				add_stability = 0.05
-			}
-			country_event = { days = 1 id = japan.5 }
-		}
+		ai_chance = { factor = 100 }
+		country_event = { id = soviet.2 days = 5 }		
 	}
 }
 
+country_event = {
+	id = soviet.2
+	title = soviet.2.t
+	desc = soviet.2.d
+	picture = GFX_report_event_stalin_meeting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = soviet.2.a
+	}
+	
+	option = {
+		name = soviet.2.b
+	}
+}
