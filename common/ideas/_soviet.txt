@@ -55,7 +55,7 @@ ideas = {
 				production_speed_industrial_complex_factor = 0.3
 				production_speed_infrastructure_factor = 0.1
 				political_power_gain = -0.50
-				stability_factor = -0.2
+				stability_factor = -0.15
 			}
 		
 		}
@@ -71,7 +71,12 @@ ideas = {
 			}
 			
 			picture = eng_for_the_good_of_the_revolution
-		
+			
+			modifier = {
+				political_power_gain = -0.25
+				stability_factor = -0.5
+				monthly_population = -0.05
+			}		
 		}
 		food_shortges_01 = {
 		
@@ -84,7 +89,13 @@ ideas = {
 			}
 			
 			picture = eng_for_the_good_of_the_revolution
-		
+			
+			modifier = {
+				political_power_gain = -0.50
+				stability_factor = -0.1
+				monthly_population = -0.1
+			}
+				
 		}
 		food_shortges_02 = {
 		
@@ -97,6 +108,12 @@ ideas = {
 			}
 			
 			picture = eng_for_the_good_of_the_revolution
+			
+			modifier = {
+				political_power_gain = -0.75
+				stability_factor = -0.15
+				monthly_population = -0.2
+			}
 		
 		}
 		food_shortges_03 = {
@@ -110,6 +127,12 @@ ideas = {
 			}
 			
 			picture = eng_for_the_good_of_the_revolution
+			
+			modifier = {
+				political_power_gain = -0.1
+				stability_factor = -0.2
+				monthly_population = -0.3
+			}
 		
 		}
 	}
