@@ -35,3 +35,12 @@ country_event = {
 		name = soviet.2.b
 	}
 }
+
+country_event = {
+	id = soviet.3
+	title = soviet.3.t
+	desc = soviet.3.d
+	picture = GFX_report_event_generic_factory
+	
+	is_triggered_only = yes
+}
