@@ -97,6 +97,8 @@ add_ideas = {
 	comecon
 	demobilizing_economy
 	housing_shortage
+	reconstruction
+	food_shortges_01
 }
 
 create_country_leader = {

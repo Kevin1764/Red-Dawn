@@ -13,7 +13,7 @@ ideas = {
 			picture = generic_central_management
 			
 			modifier = {
-				consumer_goods_factor = 0.1
+				consumer_goods_factor = 0.05
 				stability_factor = -0.2
 			}
 		}
@@ -33,9 +33,84 @@ ideas = {
 			picture = eng_spirit_of_the_industrial_revolution
 			
 			modifier = {
-				consumer_goods_factor = 0.1
+				consumer_goods_factor = 0.05
 				
 			}
+		}
+		
+		reconstruction = {
+		
+			allowed = {
+				always = no 
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = man_five_year_plan_industry
+		
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_industrial_complex_factor = 0.3
+				production_speed_infrastructure_factor = 0.1
+				political_power_gain = -0.50
+				stability_factor = -0.2
+			}
+		
+		}
+		
+		food_shortges_00 = {
+		
+			allowed = {
+				always = no 
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = eng_for_the_good_of_the_revolution
+		
+		}
+		food_shortges_01 = {
+		
+			allowed = {
+				always = no 
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = eng_for_the_good_of_the_revolution
+		
+		}
+		food_shortges_02 = {
+		
+			allowed = {
+				always = no 
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = eng_for_the_good_of_the_revolution
+		
+		}
+		food_shortges_03 = {
+		
+			allowed = {
+				always = no 
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = eng_for_the_good_of_the_revolution
+		
 		}
 	}
 	
