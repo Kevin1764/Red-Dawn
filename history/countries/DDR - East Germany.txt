@@ -85,7 +85,8 @@ set_popularities = {
 }
 
 add_ideas = {
-
+	disarmed_nation
+	soviet_control_commission
 }
 
 give_military_access = SOV
