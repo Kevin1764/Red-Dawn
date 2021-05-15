@@ -1,6 +1,6 @@
 ﻿capital = 219
 
-oob = "SOV_1936"
+oob = "SOV_1950"
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "SOV_1936_naval_mtg"
@@ -99,6 +99,8 @@ add_ideas = {
 	housing_shortage
 	reconstruction
 	food_shortges_01
+	gulag_02
+	labor_shortage
 }
 
 create_country_leader = {
