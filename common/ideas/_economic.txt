@@ -95,11 +95,17 @@ ideas = {
 				max_fuel_factor = -0.25
 				fuel_gain_factor = -0.4
 				conscription_factor = -0.5
+				industrial_capacity_factory = -0.3 
 			}
 			
 			cancel_if_invalid = yes
+			
+			allowed_to_remove = {
+				 has_completed_focus = SOV_finish_the_fourth_five_year_plan			
+			}	
 		}
 		
+			
 		civilian_economy = {
 			
 		
