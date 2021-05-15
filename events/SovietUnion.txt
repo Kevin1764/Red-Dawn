@@ -14,8 +14,7 @@ country_event = {
 	
 	option = { 
 		name = soviet.1.a
-		ai_chance = { factor = 100 }
-		country_event = { id = soviet.2 days = 5 }		
+		ai_chance = { factor = 100 }				
 	}
 }
 
