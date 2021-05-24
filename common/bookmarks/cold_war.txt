@@ -92,8 +92,9 @@ bookmarks = {
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
-				trotskyite_plot
-				home_of_revolution
+				reconstruction
+				labor_shortage
+				gulag_02
 			}
 			focuses = {
 				SOV_sino_soviet_treaty_friendship
