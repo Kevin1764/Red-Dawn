@@ -481,6 +481,26 @@
 		}	
 	}
 	
+		focus = {
+	    id = SOV_dealing_nomenklatura
+		icon = GFX_focus_generic_industry_3
+		prerequisite = { focus = SOV_arrest_beria }
+		x = 0
+		y = 1
+		relative_position_id = SOV_arrest_beria 
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available_if_capitulated = no
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+
+		}	
+	}
+	
 	focus = {
 	    id = SOV_finish_the_army_reform
 		icon = GFX_focus_generic_industry_3
@@ -502,7 +522,7 @@
 	}
 	
 	focus = {
-	    id = SOV_abolish_the_position_of_chief_of_ground_forces
+	    id = SOV_reorganize_military_forces
 		icon = GFX_focus_generic_industry_3
 		prerequisite = { focus = SOV_finish_the_army_reform }
 		x = -3
@@ -524,10 +544,10 @@
 	focus = {
 	    id = SOV_dismantle_the_ukanian_insurgent_army
 		icon = GFX_focus_generic_industry_3
-		prerequisite = { focus = SOV_abolish_the_position_of_chief_of_ground_forces }
+		prerequisite = { focus = SOV_reorganize_military_forces }
 		x = -1
 		y = 1
-		relative_position_id = SOV_abolish_the_position_of_chief_of_ground_forces 
+		relative_position_id = SOV_reorganize_military_forces 
 		cost = 5
 		ai_will_do = {
 			factor = 5
@@ -546,10 +566,10 @@
 	focus = {
 	    id = SOV_reoganize_the_armies_in_eastern_europe
 		icon = GFX_focus_generic_industry_3
-		prerequisite = { focus = SOV_abolish_the_position_of_chief_of_ground_forces }
+		prerequisite = { focus = SOV_reorganize_military_forces }
 		x = 1
 		y = 1
-		relative_position_id = SOV_abolish_the_position_of_chief_of_ground_forces 
+		relative_position_id = SOV_reorganize_military_forces 
 		cost = 5
 		ai_will_do = {
 			factor = 5
@@ -563,7 +583,86 @@
 		}
 	}
 	
-	
+	focus = {
+	    id = SOV_soviet_computer
+		icon = GFX_focus_generic_industry_3
+		prerequisite = { focus = SOV_finish_the_army_reform  }
+		prerequisite = { focus = SOV_recover_industrial_capacity  }		
+		x = 3
+		y = 2
+		relative_position_id = SOV_finish_the_army_reform 
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available_if_capitulated = no
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+	    id = SOV_MESM_computer
+		icon = GFX_focus_generic_industry_3
+		prerequisite = { focus = SOV_soviet_computer  }	
+		x = 0
+		y = 1
+		relative_position_id = SOV_soviet_computer 
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available_if_capitulated = no
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+
+		}
+	}	
+
+	focus = {
+	    id = SOV_soviet_computerb
+		icon = GFX_focus_generic_industry_3
+		prerequisite = { focus = SOV_MESM_computer  }	
+		x = 0
+		y = 1
+		relative_position_id = SOV_MESM_computer 
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available_if_capitulated = no
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+
+		}
+	}	
+
+	focus = {
+	    id = SOV_soviet_computerb
+		icon = GFX_focus_generic_industry_3
+		prerequisite = { focus = SOV_soviet_computerb  }	
+		x = 0
+		y = 1
+		relative_position_id = SOV_soviet_computerb
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available_if_capitulated = no
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+
+		}
+	}	
 	
 	focus = {
 	    id = SOV_ballistic_missiles_experiments
@@ -592,6 +691,26 @@
 		x = 0
 		y = 1
 		relative_position_id = SOV_ballistic_missiles_experiments 
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available_if_capitulated = no
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+	    id = SOV_the_R_7_Semyorka
+		icon = GFX_focus_generic_industry_3
+		prerequisite = { focus = SOV_the_R_5_Pobeda }
+		x = 0
+		y = 1
+		relative_position_id = SOV_the_R_5_Pobeda 
 		cost = 5
 		ai_will_do = {
 			factor = 5
@@ -712,6 +831,7 @@ focus = {
 		icon = GFX_focus_ger_strike_at_the_source
 		prerequisite = { focus = SOV_promote_khruschevs_idealism focus = SOV_promote_malenkovs_pragmatism }
 		mutually_exclusive = { focus = SOV_promote_malenkov's_pragmatism }
+		available = { has_completed_focus = SOV_19th_congress_of_the_communist_party }
 		x = 1
 		y = 1
 		relative_position_id = SOV_promote_malenkovs_pragmatism
@@ -770,6 +890,7 @@ focus = {
 focus = {
 	    id = SOV_19th_congress_of_the_communist_party
 		icon = GFX_focus_generic_industry_3
+		available = { has_completed_focus = SOV_arrest_beria }
 		x = 3
 		y = 6
 		cost = 5
