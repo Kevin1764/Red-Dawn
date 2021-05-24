@@ -1,0 +1,21 @@
+ideas = {
+	country = {
+		monnet_plan = {
+			
+			allowed = {
+				always = no 
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = man_five_year_plan_industry
+			
+			modifier = {			
+
+			}
+		}
+		
+	}	
+}
