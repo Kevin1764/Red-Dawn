@@ -123,13 +123,13 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 10
-	fascism = 2
-	communism = 88
+	democratic = 76
+	fascism = 4
+	communism = 20
 }
 
 add_ideas = {
-
+	monnet_plan
 }
 
 create_country_leader = {
