@@ -4,10 +4,10 @@ state={
 	name="STATE_449" # El Agheila
 	manpower = 40431
 	
-	state_category = enclave
+	state_category = rural
 
 	history={
-		owner = ENG
+		owner = LBA
 		buildings = {
 			infrastructure = 3
 		}

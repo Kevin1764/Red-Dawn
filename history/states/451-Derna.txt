@@ -4,10 +4,10 @@ state={
 	name="STATE_451"
 	manpower = 45628
 	
-	state_category = wasteland
+	state_category = rural
 
 	history={
-		owner = ENG
+		owner = LBA
 		
 		victory_points = {
 			1130 5 
