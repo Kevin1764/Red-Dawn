@@ -1,7 +1,0 @@
-spriteTypes = {	
-
-	SpriteType = {
-		name = "GFX_ideology_monarchism_group"
-		texturefile = "gfx/interface/ideology/monarchism_group.dds"	
-	}
-}
