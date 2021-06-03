@@ -424,3 +424,7 @@ LBA = {
 	color = rgb { 200 180 90 }
 	color_ui = rgb { 200 180 90 }
 }
+JOR = {
+	color = rgb { 111  55  78 }
+	color_ui = rgb { 111  55  78 }
+}
