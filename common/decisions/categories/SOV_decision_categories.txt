@@ -2,6 +2,17 @@
 #### SOVIET ####
 ################
 
-reconstruction = {
+SOV_reconstruction = {
+	icon = GFX_decision_generic_construction
+
+	picture = GFX_decision_cat_generic_mefo_bills
+	
+	allowed = {
+		original_tag = SOV
+	}
+	
+	available = {
+		has_completed_focus = SOV_finish_reconstruction_of_our_nation
+	}
 
 }
