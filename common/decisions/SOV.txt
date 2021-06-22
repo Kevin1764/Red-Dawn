@@ -2,7 +2,7 @@
 
 SOV_reconstruction = {
 
-	SOV_test = {
+	SOV_reconstruction_1 = {
 	
 	icon = generic_construction
 	
@@ -17,15 +17,53 @@ SOV_reconstruction = {
 			222 = { # Orel
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
-					type = fuel_silo
+					type = synthetic_refinery 
 					level =  2
-					instant_build 0 yes
+					instant_build = yes
 				}
 			}
 		}
 	}
 
 	}
-
+	
+	SOV_reconstruction_2 = {
+	
+	icon = generic_construction
+	
+	cost = 25
+	days_remove = 15
+	
+	remove_effect = {
+		if = {
+			limit = {
+			controls_state = 205
+			}
+			205 = { # Kaluga
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex  
+					level =  2
+					instant_build 0 yes
+				}
+			}
+		}
+		if = {
+			limit = {
+			controls_state = 242
+			}
+			242 = { # Smolensk
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex  
+					level =  2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	}
+		
 }
 

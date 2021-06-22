@@ -36,6 +36,7 @@ set_technology = {
 	fleet_in_being = 1
 	fuel_silos = 1
 	fuel_refining = 1
+	synth_oil_experiments = 1
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -98,9 +99,10 @@ add_ideas = {
 	demobilizing_economy
 	housing_shortage
 	reconstruction
-	food_shortges_01
+	food_shortages_01
 	gulag_02
 	labor_shortage
+	
 }
 
 create_country_leader = {

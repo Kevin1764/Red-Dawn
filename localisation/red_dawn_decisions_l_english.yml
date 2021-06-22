@@ -1,5 +1,6 @@
 ﻿l_english:
  SOV_reconstruction:0 "The Reconstuction"
- SOV_test:0 "Experimental decision"
- SOV_test_desc:0 ""
- 
+ SOV_reconstruction_1:0 "Build New Refineries"
+ SOV_reconstruction_1_desc:0 "Oil is the blood of our industry and we can't expect to rebuilt our economy without it"
+ SOV_reconstruction_2:0 "Expand Production Facilities"
+ SOV_reconstruction_2_desc:0 "The continued expansion of heavy industry is necessary to rebuild our economy, with new engineering innovations we will be able to expand our production centers"

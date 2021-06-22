@@ -60,7 +60,7 @@ ideas = {
 		
 		}
 		
-		food_shortges_00 = {
+		food_shortages_00 = {
 		
 			allowed = {
 				always = no 
@@ -78,7 +78,7 @@ ideas = {
 				monthly_population = -0.05
 			}		
 		}
-		food_shortges_01 = {
+		food_shortages_01 = {
 		
 			allowed = {
 				always = no 
@@ -97,7 +97,7 @@ ideas = {
 			}
 				
 		}
-		food_shortges_02 = {
+		food_shortages_02 = {
 		
 			allowed = {
 				always = no 
@@ -116,7 +116,7 @@ ideas = {
 			}
 		
 		}
-		food_shortges_03 = {
+		food_shortages_03 = {
 		
 			allowed = {
 				always = no 
@@ -216,6 +216,8 @@ ideas = {
 			industrial_capacity_factory = -0.3
 			}		
 		}
+		
+		
 	}
 	
 }

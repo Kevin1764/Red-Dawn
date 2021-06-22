@@ -49,7 +49,9 @@
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
 			country_event = { id = soviet.3 }
-			unlock_decision_tooltip = SOV_test
+			unlock_decision_tooltip = SOV_reconstruction_1
+			unlock_decision_tooltip = SOV_reconstruction_2
+			
 		}	
 	}
 	
