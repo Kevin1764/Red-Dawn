@@ -1,7 +1,7 @@
 bookmarks = {
 	bookmark = {
-		name = "GATHERING_STORM_NAME"
-		desc = "GATHERING_STORM_DESC"
+		name = "COLD_WAR_NAME"
+		desc = "COLD_WAR_DESC"
 		date = 1950.1.1.12
 		picture = "GFX_select_date_1936"
 		default_country = "SOV"
@@ -22,7 +22,7 @@ bookmarks = {
 			}
 		}
 		"USA"={
-			history = "USA_GATHERING_STORM_DESC"
+			history = "USA_COLD_WAR_DESC"
 			ideology = democratic
 			ideas = {
 				home_of_the_free
@@ -89,7 +89,7 @@ bookmarks = {
 			}	
 		}
 		"SOV"={
-			history = "SOV_GATHERING_STORM_DESC"
+			history = "SOV_COLD_WAR_DESC"
 			ideology = communism
 			ideas = {
 				reconstruction
@@ -104,7 +104,7 @@ bookmarks = {
 		}
 
 		"---"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "OTHER_COLD_WAR_DESC"
 		}
 
 
