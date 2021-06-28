@@ -6,7 +6,20 @@ bookmarks = {
 		picture = "GFX_select_date_1936"
 		default_country = "SOV"
 		default = yes
-
+		
+		"USA"={
+			history = "USA_COLD_WAR_DESC"
+			ideology = democratic
+			ideas = {
+				home_of_the_free
+				great_depression
+			}
+			focuses = {
+				USA_war_plan_black
+				USA_limited_intervention
+				USA_reestablish_the_gold_standard
+			}
+		}	
 		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
 			ideology = democratic
@@ -21,19 +34,7 @@ bookmarks = {
 				FRA_je_suis_la_deluge
 			}
 		}
-		"USA"={
-			history = "USA_COLD_WAR_DESC"
-			ideology = democratic
-			ideas = {
-				home_of_the_free
-				great_depression
-			}
-			focuses = {
-				USA_war_plan_black
-				USA_limited_intervention
-				USA_reestablish_the_gold_standard
-			}
-		}
+
 		"ENG"={
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = democratic
@@ -47,20 +48,7 @@ bookmarks = {
 				ENG_the_kings_party
 				ENG_organize_the_blackshirts
 			}
-		}
-		"DDR"={
-			history = "DDR_GATHERING_STORM_DESC"
-			ideology = communism
-			ideas = {
-				vittoria_mutilata
-				victor_emmanuel
-			}	
-			focuses = {
-				ITA_pact_of_steel
-				ITA_spanish_italian_faction
-				ITA_italy_first
-			}		
-		}
+		}	
 		"WGR"={
 			history = "WGR_GATHERING_STORM_DESC"
 			ideology = democratic
@@ -75,6 +63,20 @@ bookmarks = {
 				JAP_strike_on_the_southern_resource_area
 			}			
 		}
+		"DDR"={
+			history = "DDR_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				vittoria_mutilata
+				victor_emmanuel
+			}	
+			focuses = {
+				ITA_pact_of_steel
+				ITA_spanish_italian_faction
+				ITA_italy_first
+			}		
+		}
+
 		"PRC"={
 			history = "PRC_GATHERING_STORM_DESC"
 			ideology = communism
