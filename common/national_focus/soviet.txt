@@ -648,7 +648,7 @@
 	}	
 
 	focus = {
-	    id = SOV_soviet_computerb
+	    id = SOV_soviet_computerc
 		icon = GFX_focus_generic_industry_3
 		prerequisite = { focus = SOV_soviet_computerb  }	
 		x = 0
@@ -833,7 +833,6 @@ focus = {
 	    id = SOV_the_moscow_affair
 		icon = GFX_focus_ger_strike_at_the_source
 		prerequisite = { focus = SOV_promote_khruschevs_idealism focus = SOV_promote_malenkovs_pragmatism }
-		mutually_exclusive = { focus = SOV_promote_malenkov's_pragmatism }
 		available = { has_completed_focus = SOV_19th_congress_of_the_communist_party }
 		x = 1
 		y = 1
