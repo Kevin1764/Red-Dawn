@@ -18,7 +18,7 @@ ideas = {
 			}
 		}
 		
-		comecon = {
+		comecon_sov = {
 			
 			allowed = {
 				always = no 
@@ -151,7 +151,6 @@ ideas = {
 			occupation_cost = -0.05
 			industry_free_repair_factor = 0.5
 			production_speed_buildings_factor = 0.05
-			enemy_operative_recruitment_chance = 0.1
 			}
 		
 		}
