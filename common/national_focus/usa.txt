@@ -12,11 +12,33 @@
 	
 	default = no
 	
+	continuous_focus_position = { x = 30 y = 2000 } 
+	
 focus = {
-		id = president_truman
-		icon = GFX_focus_SOV_stalin_era
+		id = USA_president_truman
+		icon = GFX_focus_usa_flag
 		x = 7
 		y = 0
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = no
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+
+		}
+	}
+	
+focus = {
+		id = USA_truman_doctrine
+		icon = GFX_focus_ger_bulwark_against_bolshevism
+		prerequisite = { focus = USA_president_truman }
+		x = 8
+		y = 1
+		relative_position_id = USA_president_truman
 		cost = 1
 		ai_will_do = {
 			factor = 5

@@ -15,9 +15,7 @@ bookmarks = {
 				great_depression
 			}
 			focuses = {
-				USA_war_plan_black
-				USA_limited_intervention
-				USA_reestablish_the_gold_standard
+				USA_truman_doctrine
 			}
 		}	
 		"FRA"={

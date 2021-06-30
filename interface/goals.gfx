@@ -39,4 +39,16 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	
+	SpriteType = {
+		name = "GFX_focus_usa_flag"
+		texturefile = "gfx/interface/goals/focus_usa_flag.dds"
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_ger_bulwark_against_bolshevism"
+		texturefile = "gfx/interface/goals/focus_ger_bulwark_against_bolshevism.dds"
+		legacy_lazy_load = no
+	}
+	
 }
