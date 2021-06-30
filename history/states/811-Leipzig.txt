@@ -5,7 +5,7 @@ state={
 	history={
 		owner = DDR
 		victory_points = {
-			3535 5
+			3535 20
 		}
 		
 		add_core_of = DDR

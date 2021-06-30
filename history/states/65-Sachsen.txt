@@ -15,7 +15,7 @@ state={
 
 		}
 		victory_points = {
-			514 5 
+			514 20
 		}
 		
 		add_core_of = DDR
