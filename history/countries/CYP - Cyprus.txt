@@ -1,4 +1,4 @@
-﻿capital = 64
+﻿capital = 183
 
 set_research_slots = 3
 set_stability = 0.5
@@ -27,6 +27,7 @@ set_technology = {
 	fleet_in_being = 1
 	fuel_silos = 1
 	fuel_refining = 1
+	synth_oil_experiments = 1
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -74,32 +75,28 @@ set_convoys = 50
 
 set_politics = {
 	ruling_party = communism
-	last_election = "1946.4.22"
+	last_election = "1922.3.3"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 9
-	fascism = 3
+	democratic = 10
+	fascism = 2
 	communism = 88
 }
 
 add_ideas = {
-	disarmed_nation
-	soviet_control_commission
-	berlin_convention
+
 }
 
-give_military_access = SOV
-
 create_country_leader = {
-	name = "Wilhelm Pieck"
+	name = "Joseph Stalin"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
-	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
-	expire = "1960.9.7"
+	picture = "Portrait_Soviet_Joseph_Stalin.dds"
+	expire = "1955.4.16"
 	ideology = stalinism
 	traits = {
-		
+
 	}
 }
 

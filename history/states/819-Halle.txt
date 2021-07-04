@@ -4,6 +4,9 @@ state={
 	
 	history={
 		owner = DDR
+		victory_points = {
+			6582 5
+		}
 		
 		add_core_of = DDR
 
@@ -11,7 +14,7 @@ state={
 	provinces={
 		538 6441 6501 6582 11545 
 	}
-	manpower=0
+	manpower=1776500
 	buildings_max_level_factor=1.000
 	state_category=town
 }
