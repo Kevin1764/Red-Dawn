@@ -16,6 +16,23 @@ ideas = {
 			}
 		}
 		
+		berlin_convention = {
+		
+			allowed = {
+				always = no 
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			picture = georgy_zhukov
+			
+			modifier = {
+			}
+		
+		}
+		
 	}
 	
 }

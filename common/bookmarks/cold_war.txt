@@ -65,8 +65,8 @@ bookmarks = {
 			history = "DDR_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
-				vittoria_mutilata
-				victor_emmanuel
+				soviet_control_commission
+				berlin_convention			
 			}	
 			focuses = {
 				ITA_pact_of_steel

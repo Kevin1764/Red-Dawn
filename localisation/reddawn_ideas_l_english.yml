@@ -1,6 +1,7 @@
 ﻿l_english:
  demobilizing_economy:0 "Demobilizing Economy"
  demobilizing_economy_desc:0 ""
+ 
  comecon_member:0 "Comecon Member"
  comecon_member_desc:0 ""
  comecon_observer:0 "Comecon Observer"
@@ -9,8 +10,10 @@
  housing_shortage_desc:0 "Over a million residential building were destroyed, another two and a half million were damaged and two thousand cities and towns were destroyed as well as an additional seventy-thounsand villages."
  comecon_sov:0 "Comecon"
  comecon_sov_desc:0 ""
+ 
  first_indochina_war:0 "First Indochina War"
  first_indochina_war_desc:0 ""
+ 
  reconstruction:0 "Reconstruction"
  reconstruction_desc:0 ""
  food_shortages_00:0 "Small Food Shortages"
@@ -31,7 +34,12 @@
  gulag_02_desc:0 "The GULAG, or Chief Directorate of Camps, is the state institution in charge of a series of penal colonies and labor camps, this camps house a wide variety of criminals, from petty robbers to political prisoners. Our networks of camps extends from eastern Europe to Siberia, we're using former Stalags to house war prisoners in East Germany and freed soviet POWs are being sent to special camps to be filtered and then sent home, unless the are traitors."
  labor_shortage:0 "Labor Shortages"
  labor_shortage_desc:0 "Twenty seven million people lost their lives during the war, now our industry is suffering the consecuences. New factories barely have enough workers to run and industrial productivity is constantly falling despite the implentation of new technologies, we don't have enough workers to supply our ever growing heavy industry and this will worsen if don't act soon."
+ 
  african_instability:0 "African Instability"
  african_instability_desc:0 ""
+ 
  monnet_plan:0 "Monnet Plan"
  monnet_plan_desc:0 ""
+ 
+ berlin_convention:0 "Berlin Convention"
+ berlin_convention_desc:0 "The Berlin Convention, or the Treaty for the Peaceful Resolution of the Berlin Dispute, was signed in 1946 by Marshal Georgy Zhukov, in representation the Soviet Military Administration in Germany, and General Joseph T. McNarney, in representation of the Office of Military Government for Germany. The treaty settled that the western part of the city of Berlin would return under the gobernance of the German Democratic Republic under the conditions of complete demilitarization for the next ten years, the presence of an American diplomatic office and the signing of a series of migration and economic treaties between both Germanies. Despite these accords tension still exist between both goverment and both of them claim to be the rigthful German state"
