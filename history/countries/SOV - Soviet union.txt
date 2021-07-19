@@ -79,7 +79,7 @@ if = {
 		armored_car1 = 1
 	}
 }
-
+	
 set_convoys = 50
 
 set_politics = {

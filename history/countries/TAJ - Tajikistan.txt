@@ -95,14 +95,7 @@ set_popularities = {
 }
 
 add_ideas = {
-	comecon
-	demobilizing_economy
-	housing_shortage
-	reconstruction
-	food_shortages_01
-	gulag_02
-	labor_shortage
-	
+
 }
 
 create_country_leader = {
