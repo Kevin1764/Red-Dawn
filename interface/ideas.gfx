@@ -5609,5 +5609,9 @@ spriteTypes = {
 		name = "GFX_idea_nam_wars"
 		texturefile = "gfx/interface/ideas/nam_wars.dds"
 	}
-
+	
+	spriteType = {
+		name = "GFX_idea_industrial_recolocation"
+		texturefile = "gfx/interface/ideas/industrial_recolocation.dds"
+	}
 }

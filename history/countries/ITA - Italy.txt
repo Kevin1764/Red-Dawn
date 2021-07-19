@@ -98,7 +98,7 @@ set_popularities = {
 }
 
 add_ideas = {
-
+	war_reparations_00
 }
 
 create_country_leader = {

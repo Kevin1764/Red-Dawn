@@ -94,7 +94,7 @@ set_popularities = {
 }
 
 add_ideas = {
-
+	war_reparations_00
 }
 
 give_military_access = SOV

@@ -1,0 +1,32 @@
+ideas = {
+	country = {
+
+		war_reparations_00 = {
+		
+			allowed = {
+				always = no 
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = industrial_recolocation
+			
+			modifier = {			
+				consumer_goods_factor = 0.05
+			}		
+		
+		}
+		
+			war_reparations_sov = {
+			
+			picture = FRA_factory_strikes
+		
+			modifier = {
+				consumer_goods_factor = -0.25
+			
+			}
+		}		
+	}	
+}

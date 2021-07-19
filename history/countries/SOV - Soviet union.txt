@@ -102,6 +102,7 @@ add_ideas = {
 	food_shortages_01
 	gulag_02
 	labor_shortage
+	war_reparations_sov
 	
 }
 

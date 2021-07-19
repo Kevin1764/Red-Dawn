@@ -88,6 +88,7 @@ add_ideas = {
 	disarmed_nation
 	soviet_control_commission
 	berlin_convention
+	war_reparations_00
 }
 
 give_military_access = SOV
